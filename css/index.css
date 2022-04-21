@@ -68,7 +68,7 @@ img[src*="#tft_img"] {
     @apply font-semibold;
   }
   h2 {
-    @apply text-4xl lg:text-7xl font-normal leading-none;
+    @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal leading-none;
   }
   h2 strong {
     @apply font-medium;

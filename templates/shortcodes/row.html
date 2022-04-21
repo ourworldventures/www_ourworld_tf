@@ -48,7 +48,7 @@ Parameters:
      {% if "between" in style %}
      {% set row_class = row_class ~ " lg:max-w-6xl " %}
  {% elif "moderate" in style %}
-     {% set row_class = row_class ~ " lg:m-20 " %}
+     {% set row_class = row_class ~ " lg:mx-20 " %}
  {% endif %}
 
         <!-- makes row full screen width, strips margins -->
@@ -57,7 +57,7 @@ Parameters:
     {% elif "tight" in style %}
         {% set row_class = row_class ~ " lg:max-w-sm " %}
     {% elif "moderate" in style %}
-        {% set row_class = row_class ~ " lg:m-20 " %}
+        {% set row_class = row_class ~ " lg:mx-20 " %}
     {% endif %}
 
     {% if "invert-color" in style %}

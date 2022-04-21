@@ -8,8 +8,8 @@ extra:
   imgPath: ""
 ---
 
-- [HOME]("/")
+- [CREATOR ZONES]("/creator-zones")
+- [PLATFORM]("platform")
+- [EXPERIENCES]("/experiences")
 - [BLOGS]("/blog")
-- [USE CASES]("/")
-- [TECH]("/")
-- [GET IN TOUCH]("mailto:info@ourverse.tf")
+- [CONTACT]("mailto:info@ourworld.tf")
