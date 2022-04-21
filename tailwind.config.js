@@ -5,6 +5,12 @@ module.exports = {
       './templates/**/*.html'
   ],
   darkMode: false,
+  variants: {
+      extend: {
+          first: ['active'],
+          last: ['active']
+        }
+  },
   theme: {
     fontSize: {
         'xs': '.75rem',

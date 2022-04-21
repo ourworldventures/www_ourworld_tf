@@ -1,12 +1,11 @@
 ---
-title: "OurVerse"
-description: "The only truly decentralized metaverse on the planet awaits you."
+title: "OurWorld"
+description: "A better world is where we all have access to endless information and opportunities."
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author:
-  imgPath: blog/realizing_the_promise/
 ---
 
 <!-- section 1 (header) -->
@@ -19,13 +18,35 @@ extra:
 
 <br>
 
-A better world is one where we all have access to endless information and oppurtunities. OurVerse exists to achieve that dream.
+A better world is one where we all have access to endless information and opportunities. OurWorld exists to achieve that dream.
 
-<button>[Explore]("")</button>
+<button>[EXPLORE]("/platform")</button>
 
 |||
 
 ![Image](/images/OWAsset-15.png#large)
+
+{% end %}
+
+{{ space() }}
+
+{% row(style="center lean-left" bgColor="#c4ffeb") %}
+
+![Image](/images/OW_Asset34.png)
+
+|||
+
+## THE
+
+## CREATOR
+
+## ZONE
+
+<br/>
+
+**This is where it all begins.** Creator Zones are dedicated to building super-sustainable coworking and co-living communities where entrepreneurs, digital nomads and residents collaborate to build beautiful experiences that positively impact the lives of millions.
+
+<button>[EXPLORE](/creator-zones)</button>
 
 {% end %}
 
@@ -43,138 +64,71 @@ A better world is one where we all have access to endless information and oppurt
 
 <br>
 
-Learn whatever your heart desires. Access any oppurtunity to earn. Enter any shop. Travel everywhere. In OurVerse, you are limited by only your own imagination.
+OurWorld allows you and your community to prosper together! Learn whatever your heart desires. Access any opportunity to earn.
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center moderate") %}
+{% row(style="center lean-right" bgColor="#c4ffeb") %}
+
+#### THE 4 LAYERS OF
+
+### TRANSFORMATION.
 
 <br>
 
-![Image](/images/OWAsset-17.png)
+OurWorld consists of a decentralized internet network as the foundation. This base enables life-changing experiences and capabilties to be openly and freely available to everyone.
 
-<br>
-
-#### ENDLESS KNOWLEDGE AND EDUCATION
-
-<br>
-
-Learn whatever your heart desires. Access any oppurtunity to earn. Enter any shop. Travel everywhere. In OurVerse, you are limited by only your own imagination.
+<button>[LEARN MORE]("/platform")</button>
 
 |||
 
-<br>
-
-![Image](/images/OWAsset-18.png)
-
-<br>
-
-#### A BETTER EARNING MODEL
-
-<br>
-
-Learn whatever your heart desires. Access any oppurtunity to earn. Enter any shop. Travel everywhere. In OurVerse, you are limited by only your own imagination.
-
-{% end %}
-
-{% row(style="center moderate") %}
-
-<br>
-
-![Image](/images/OWAsset-19.png)
-
-<br>
-
-#### EVERY PRODUCT IS ACCESSIBLE
-
-<br>
-
-Learn whatever your heart desires. Access any oppurtunity to earn. Enter any shop. Travel everywhere. In OurVerse, you are limited by only your own imagination.
-
-|||
-
-<br>
-
-![Image](/images/OWAsset-20.png)
-
-<br>
-
-#### THE WORLD IS YOUR OYSTER
-
-<br>
-
-Learn whatever your heart desires. Access any oppurtunity to earn. Enter any shop. Travel everywhere. In OurVerse, you are limited by only your own imagination.
+![Image](/images/OW_Asset25.png#large)
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center lean-left" bgColor="#c4ffeb") %}
+{% row(style="center lean-left" bgColor="#fdfeea") %}
 
-![Image](/images/OWAsset-21.png)
+![Image](/images/OW_Asset36.png)
 
 |||
 
-# WORK.
+### A MISSION TO
 
-# PLAY.
-
-# **LIVE.**
+# THRIVE
 
 <br/>
 
-**Anything** you can do in the real world you can do in OurVerse. Only your own imagination limits you. Explore or start building experiences and start earning now!
+OurWorld exists to speed up the transition towards inclusivity. We create thriving experiences and ecosystems which enable every human being to learn, partake and succeed.
 
-<button>[USE CASES](/use-cases)</button>
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-<br>
-
-### EVERY IDENTITY IS
-
-## PROTECTED.
-
-<br>
-
-OurVerse users are protected through ThreeFold's digital twin. This allows everyone to communicate, network and collaborate without worrying about data breaches and identity theft.
-
-<br>
-
-![Image](/images/OWAsset-22.png)
+<button>[EXPERIENCES](/experiences)</button>
 
 {% end %}
 
-{{ space() }}
+{% row(style="center moderate") %}
 
-{% row(style="center lean-left" bgColor="#c6f8ff") %}
+COMING SOON.
 
-![Image](/images/OWAsset-23.png)
+<br/>
+
+### THE DIGITAL
+
+# TWIN
+
+<br>
+
+Soon, access all your OurWorld experiences through your Digital Twin. Communicate, collaborate and network without every working about online security or identity theft.
 
 |||
 
-#### BUILT BY
-
-### TOGETHERNESS.
-
-<br>
-
-An OurVerse is created by utilizing the world's largest decentralized and peer-to-peer of storage and compute: The ThreeFold Grid.
-
-<br>
-<br>
-
-This provides every OurVerse community with unparalleled security to each user and assures unprecedented sovereignty.
-
-<button>[DISCOVER THE TECH]("")</button>
+![Image](/images/OW_Asset26.jpg)
 
 {% end %}
 
-{% row(style="center narrow invert-color" bgColor="#4dc48f") %}
+{% row(style="center narrow invert-color" bgColor="#4ec48f") %}
 
 ## WANNA GET **INVOLVED?**
 
@@ -185,5 +139,9 @@ Interested in partnering up? Or just wanna say hi?
 Drop us a message!
 
 <button>[Email](mailto:info@ourverse.tf)</button>
+
+<br>
+
+OUR**WORLD**
 
 {% end %}
