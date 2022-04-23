@@ -1,22 +1,28 @@
 ---
-title: "Co-Realizing the Promise"
-description: "Together with our global community, we're realizing the initial promise of an open-source, peer-to-peer Internet owned by the people."
-date: 2022-03-21T14:40:00-05:00
+title: "Co-Realizing the Promise" # Quotation marks allow colons, semicolons, etc.
+description: "Together with our global community, we're realizing the initial promise of an open-source, peer-to-peer Internet owned by the people." # Quotation marks allow colons, semicolons, etc.
+date: 2022-03-21
+updated: 2022-03-21 # Comment-out this line with a # if content is unchanged
+draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: ["Peer-to-peer", "Open source"]
+  categories: ["Foundation"]
+  categories: [threefold_grid, community, farming, interview, update]
+
 extra:
-  subtitle: "Together with our global community, we're realizing the initial promise of an open-source, peer-to-peer Internet owned by the people."
-  author: "Sacha Obeegadoo"
-  imgPath: images/threefold_blog2.png
-  isFeatured: "true"
+  subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: Sacha Obeegadoo
+  authorImg: /images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/realizing_the_promise.png
+  isFeatured: true
+  
 ---
 
 What was once a massive global movement sparked by the idealism of free culture and the net, is now hosting a wave of unintended consequences that may destroy sovereignty and freedom as we know it. The digital revolution and the “democratization” of the Internet promised to lead us to a prosperous and equitable world, one that brought us closer together, eliminating both physical and virtual boundaries.
 
 <br/>
 
-“We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth… a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity… Your legal concepts of property, expression, identity, movement, and context do not apply to us. They are all based on matter, and there is no matter here.” – Declaration of independence of Cyberspace – John Perry Barlow – Davos, 1996.
+_“We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth… a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity… Your legal concepts of property, expression, identity, movement, and context do not apply to us. They are all based on matter, and there is no matter here.” – Declaration of independence of Cyberspace – John Perry Barlow – Davos, 1996._
 
 <br/>
 
@@ -45,8 +51,18 @@ Peer-to-peer isn’t an alternative to the Internet, it’s an alternative to ce
 <br/>
 
 In times of exponential evolution and innovation, we have our fears around the Internet.
+
 We don’t need to disconnect ourselves even further from our reality and it is our responsibility to ensure a safe and fair future for the generations to come. A centralized Internet which is controlled by a handful of companies is a serious existential threat. If emerging technologies such as IoT, Blockchain and the Metaverse are not hosted on a self-sovereign, peer-to-peer infrastructure owned by all of us, we may be running head down into the matrix.
 
 <br/>
 
 The potential of technology to change the world remains endless and limited to our own imagination. We decide to switch from fear to love, and to move forward as one humanity. It is our responsibility as global citizens to pursue greater collective consciousness.
+
+<br/>
+
+Join the [ThreeFold](https://t.me/threefold) movement, a community of like-minded people that build the world of tomorrow!
+
+<br/>
+
+- Learn how to [host the Internet](http://threefold.io/farm) at your home or office.
+- Get [TFT](https://gettft.com/gettft/), the currency of the peer-to-peer Internet.

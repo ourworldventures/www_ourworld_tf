@@ -43,7 +43,7 @@ To make a blog post featured, simply add an isFeatured attribute to the yaml hea
 
 #### Section.html
 
-The default section template, displays section body without styling (except for margins), and displays subpages of the section below. The subpages of the page are displayed as small summaries of pages with title, description, and tags, as rendered by partials/pageBox.html. The subpages are grouped by the taxonomy name passed in as the "group_pages_by" extra attribute, defined in the section's yaml header.
+The default section template, displays section body without styling (except for margins), and displays subpages of the section below. The subpages of the page are displayed as small summaries of pages with title, description, and categories, as rendered by partials/pageBox.html. The subpages are grouped by the taxonomy name passed in as the "group_pages_by" extra attribute, defined in the section's yaml header.
 
 ### Creating custom pages
 

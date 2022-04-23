@@ -58,46 +58,7 @@ paginate_by = 2
 paginate_path = "/blog-posts"
 
 [[taxonomies]]
-name = "roles"
+name = "categories"
 feed = true
 paginate_by = 2
-paginate_path = "/join-us"
-
-[[taxonomies]]
-name = "tags"
-feed = true
-paginate_by = 2
-paginate_path = "/join-us"
-
-[extra]
-# Put all your custom variables here
-
-[extra.taxonomies."roles"]
-	[extra.taxonomies."roles".Create]
-	icon_path = "images/icons/paint-brush-art-svgrepo-com.svg"
-    banner_path = "images/marius-masalar-unsplash.jpg"
-    title = "Create Ourworld"
-    description = "Become a part of a team of creators looking to shape our digital world"
-
-    [extra.taxonomies."roles".Develop]
-	icon_path = "images/icons/code-svgrepo-com.svg"
-    banner_path = "images/marius-masalar-unsplash.jpg"
-    title = "Develop Ourworld"
-    description = "Become a part of a team of developers building our digital world"
-
-    [extra.taxonomies."roles".Inspire]
-	icon_path = "images/icons/bar-svgrepo-com.svg"
-    banner_path = "images/marius-masalar-unsplash.jpg"
-    title = "Share Ourworld"
-    description = "Create communities and involve people in ourworld"
-
-    [extra.taxonomies."roles".Organize]
-	icon_path = "images/icons/form-svgrepo-com.svg"
-    banner_path = "images/marius-masalar-unsplash.jpg"
-    title = "Run Ourworld"
-    description = "Become a part of the organizational team at ourworld"
-
-
-
-
-
+paginate_path = "/blog-posts"

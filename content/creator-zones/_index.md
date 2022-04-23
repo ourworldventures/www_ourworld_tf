@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: "About Ourverse."
+title: "Creator Zones"
+description: "A better world is where we all have access to endless information and opportunities."
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
@@ -8,130 +8,147 @@ extra:
   author:
 ---
 
+<!-- section 1 (header) -->
+
 {% row(style="center lean-right") %}
 
-## ABOUT **OURVERSE.**
+### GROWTH BEGINS
 
-<br/>
+#### IN CREATOR ZONES
 
-Check out the coolest experiences
+<br>
 
-already in OurVerse.
+Creator Zones are set up to allow aspiring entrepreneurs, business people and digital nomads to work together on projects and experiences that bring a positive impact to the society.
 
-<button>[SHOW ME!](/use-cases#experiences)</button>
+<button>[EXPLORE]("/")</button>
 
 |||
 
-![Image](/images/OVAsset-33.jpg)
+![Image](/images/OW_Asset40.jpg)
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center moderate" anchor="experiences") %}
+{% row(style="center lean-left" bgColor="#c4ffeb") %}
 
-![Image](/images/OVAsset-27.jpg)
-
-<br/>
-
-### META
-
-### **SHOPPING**
-
-<br/>
-
-##### Visit custom made shops in OurVerse and experience the future of e-commerce.
+![Image](/images/OW_Asset11.png)
 
 |||
 
-![Image](/images/OVAsset-28.jpg)
+## LOVE OF NATURE
 
 <br/>
 
-### META
-
-### **MEETINGS**
-
-<br/>
-
-##### Meeting rooms in OurVerse can help you carry your meetings from a grid to a conference room.
-
-{% end %}
-
-{% row(style="center moderate") %}
-
-![Image](/images/OVAsset-29.jpg)
-
-<br/>
-
-### META
-
-### **EXHIBITIONS**
-
-<br/>
-
-##### Visit exhibitions and experience art digitally as you would in an actual gallery.
-
-|||
-
-![Image](/images/OVAsset-30.jpg)
-
-<br/>
-
-### META
-
-### **EVENTS**
-
-<br/>
-
-##### Concerts, career fairs, anything you can imagine. OurVerse events redefine our understanding of virtual events.
-
-{% end %}
-
-{% row(style="center moderate") %}
-
-![Image](/images/OVAsset-31.jpg)
-
-<br/>
-
-### META
-
-### **SOCIALIZING**
-
-<br/>
-
-##### Elevate your digital socializing experience from chat boxes to VR meetups.
-
-|||
-
-![Image](/images/OVAsset-32.jpg)
-
-<br/>
-
-### META
-
-### **GAMING**
-
-<br/>
-
-##### Create and play any VR game you can imagine.
+Creator Zones are always integrated with nature.
+This creates a more sustainable environment that
+allows community members to be more
+sustainable. This also promotes greener habits
+to become the standard of every Creator Zone.
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center narrow invert-color" bgColor="#2d103e") %}
+{% row(style="center narrow") %}
 
-## GOT A
+<br>
 
-## **COOL IDEA?**
+![Image](/images/OW_Asset12.jpg)
+
+<br>
+
+### A DEDICATION
+
+## TO LEARNING
+
+<br>
+
+Creator Zones are always integrated with nature.
+This creates a more sustainable environment that
+allows community members to be more
+sustainable. This also promotes greener habits
+to become the standard of every Creator Zone.
+
+{% end %}
+
+{{ space() }}
+
+{% row(style="center lean-left" bgColor="#e9fcff") %}
+
+![Image](/images/OW_Asset14.png)
+
+|||
+
+## BUILT BY
+
+### TOGETHERNESS
 
 <br/>
 
-Drop us a line and let us know.
+Co-living and coworking in Creator Zones allow members to create effective and innovative experiences.
 
-We are always looking out for creative suggestions!
+<br>
 
-<button>[Email](/)</button>
+We have created an environment where collaboration and team work lead to the developoment of advanced technologies that focus on endless creating opportunities.
+{% end %}
+
+{{ space() }}
+
+{% row(style="center narrow") %}
+
+<br>
+
+![Image](/images/OW_Asset8.jpg)
+
+<br>
+
+### REGENERATIVE
+
+## FARMING
+
+<br>
+
+We work with the local population to allow them to help and earn from the Creator Zone community by assisting in regenerative farming. This makes our communities promote healthier living and also allows us to become more self-sufficient.
+
+{% end %}
+
+{{ space() }}
+
+{% row(style="center lean-right") %}
+
+### THE POWER
+
+## OF P2P
+
+<br>
+
+All Creator Zone experiences and technologies are built on top of the world’s largest decentralized and peer-to-peer network, the ThreeFold Grid. This allows endless security and scalability for all projects whilst offering limitless opportunities.
+
+<button>[LEARN MORE]("/")</button>
+
+|||
+
+![Image](/images/OW_Asset9.jpg)
+
+{% end %}
+
+{{ space() }}
+
+{% row(style="center narrow invert-color" bgColor="#4ec48f") %}
+
+## WANNA GET **INVOLVED?**
+
+<br/>
+
+Interested in partnering up? Or just wanna say hi?
+
+Drop us a message!
+
+<button>[Email](mailto:info@ourverse.tf)</button>
+
+<br>
+
+OUR**WORLD**
 
 {% end %}

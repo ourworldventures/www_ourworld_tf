@@ -74,13 +74,13 @@ img[src*="#tft_img"] {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl lg:text-5xl font-normal leading-none;
+    @apply text-3xl lg:text-6xl font-normal leading-none;
   }
   h3 strong {
     @apply font-semibold;
   }
   h4 {
-    @apply text-xl lg:text-4xl font-normal;
+    @apply text-xl lg:text-5xl font-normal;
   }
   h5 {
     @apply text-xl lg:text-3xl font-normal;
