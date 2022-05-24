@@ -18,6 +18,5 @@ jobs:
         script: |
           cd /opt/www_ourworld_tf/
           git log -1
-          git restore static/css/index.css
           git pull
           npm run build
