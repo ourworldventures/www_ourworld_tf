@@ -36,6 +36,12 @@ img[src*="#small"] {
   width: 68px;
 }
 
+
+img[src*="#padded"] {
+    max-width: 80%;
+    margin: auto;
+}
+
 img[src*="#medium"] {
   width: 400px;
   margin: auto;
@@ -68,28 +74,28 @@ img[src*="#tft_img"] {
     @apply font-semibold;
   }
   h2 {
-    @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal leading-none;
+    @apply text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-none;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl lg:text-6xl font-normal leading-none;
+    @apply text-3xl lg:text-5xl font-medium leading-snug;
   }
   h3 strong {
     @apply font-semibold;
   }
   h4 {
-    @apply text-xl lg:text-5xl font-normal;
+    @apply text-xl lg:text-4xl font-light tracking-wider leading-snug;
   }
   h5 {
-    @apply text-xl lg:text-3xl font-normal;
+    @apply text-xl lg:text-2xl font-light;
   }
   h6 {
     @apply text-md not-italic font-normal my-1;
   }
   p {
-    @apply text-lg lg:text-2xl leading-tight;
+    @apply text-md lg:text-md font-normal tracking-wide leading-normal;
     font-family: "Lato", sans-serif;
   }
   blockquote {
