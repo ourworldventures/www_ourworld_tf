@@ -128,19 +128,13 @@ h1,
 h2,
 .h2,
 h3,
-.h3 {
-  font-family: "Exo", sans-serif;
-}
-
+.h3, 
 h4,
 .h4,
 h5,
 .h5,
 h6,
-.h6 {
-  @apply font-sans leading-none tracking-tight;
-  font-family: "Lato", sans-serif;
-}
+.h6,
 
 h1,
 .h1 {

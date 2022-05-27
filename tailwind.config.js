@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  important: '#content',
   content: [
       './templates/**/*.html'
   ],
@@ -12,6 +13,13 @@ module.exports = {
         }
   },
   theme: {
+    fontFamily: {
+        'sans': ['Montserrat', 'system-ui'],
+        'serif': ['ui-serif', 'Georgia'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'display': ['Montserrat'],
+        'body': ['"Montserrat"']
+    },
     fontSize: {
         'xs': '.75rem',
         'sm': '.875rem',

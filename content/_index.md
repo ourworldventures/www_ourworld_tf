@@ -12,35 +12,51 @@ extra:
 
 {% row(style="invert-color" bgPath="/images/ow_lp1.jpg" bgStyle="full") %}
 
-<br>
-
-## Be at the source of WEB4 Movement
+![TF Logo](/images/ow_lp_logo.png#small)
 
 <br>
 <br>
+<br>
+<br>
 
-#### Shaping the future internet
-
-#### open, green, resilient, inclusive
+## Power the WEB4 Movement
 
 <br>
 <br>
+
+#### The Internet of Internets
+
+#### Open, regenerative & inclusive
+
+<br>
+
+<a href="/"><button class="dark">PLAN A MEETING</button></a>
 
 {% end %}
 
-{% row(style="lean") %}
+{% row(style="moderate center") %}
 
-![Image](images/ow_lp.png)
-
-{% end %}
-
-{% row(style="invert-color" bgPath="/images/ow_lp2.jpg" bgStyle="full") %}
+## SPRING CAMPAIGN
 
 <br>
 
-## The Foundation for a
+![Image](images/ow_lp40.jpg)
 
-## Decentralized World.
+<br>
+
+**4 MILLION € ALREADY RAISED**
+
+{% end %}
+
+![Tech image](/images/ow_lp2.jpg#mobile)
+
+{% row(style="invert-color" bgPath="/images/ow_lp2.jpg#desktop" bgStyle="full") %}
+
+<br>
+
+## The Foundation for
+
+## a Decentralized World.
 
 <br>
 <br>
@@ -49,7 +65,7 @@ Power to change everything. Discover a sovereign, secure and regenerative Intern
 
 <br>
 
-The Internet of Internets is bringing a new paradigm for people, enterprises and governements.
+The Internet of Internets is bringing a new paradigm for people, enterprises and governments.
 
 |||
 
@@ -63,7 +79,7 @@ The Internet of Internets is bringing a new paradigm for people, enterprises and
 
 {% row(style="moderate")%}
 
-![Image](/images/ow_lp3.jpg)
+![Image](/images/ow_lp3.jpg#desktop)
 
 <br>
 
