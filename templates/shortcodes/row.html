@@ -62,7 +62,9 @@ Parameters:
     {% endif %}
 
     {% if "invert-color" in style %}
-        {% set row_class = row_class ~ " text-white " %}
+
+                {% set row_class = row_class ~ " text-white lg:text-white " %}
+
     {% endif %}
 
     {% else %}
@@ -74,6 +76,7 @@ Parameters:
     {% set anchor_link = anchor %}
 {% endif %}
 
+
 <!-- makes row full screen width and adds background img -->
 {% set styles = ""  %}
 {% set div_class = " " %}
@@ -81,7 +84,12 @@ Parameters:
     {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover; background-position: center;"  %}
     {% if "#desktop" in bgPath %}
         {% set div_class = " !bg-[length:0px_0px] !bg-no-repeat lg:!bg-cover " %}
-        {% set row_class = row_class | replace(from='text-white', to='') %}
+        {% set row_class = row_class | replace(from='text-white', to='text-black') %}
+        {% if "invert-color" in style %}
+            {% if "#desktop" in bgPath %}
+                {% set row_class = row_class ~ " lg:text-white " %}
+            {% endif %}
+        {% endif %}
     {% endif %}
 {% endif %}
 {% if bgStyle %}
@@ -107,13 +115,6 @@ Parameters:
             {% else %}
                 <div class="{{col_class}}">
                     <!-- handles mermaid markdown content display -->
-
-                    {% set claim = "yo there is no img" %}
-                    {% if "img" in column %} 
-                        {% set claim = "yo there iis img" %}
-                    {% endif %}
-                    {{claim}}
-
 
                     {% if "{% mermaid() %}" in column %}
                         {% set mermaid_section = column | safe | markdown | split(pat="{% mermaid() %}") %}
