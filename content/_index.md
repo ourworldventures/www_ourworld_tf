@@ -36,7 +36,7 @@ extra:
 
 {% row(style="moderate center") %}
 
-## SPRING CAMPAIGN
+## SUMMER CAMPAIGN
 
 <br>
 
