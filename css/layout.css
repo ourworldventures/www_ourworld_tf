@@ -2,6 +2,18 @@ main {
   @apply pt-0;
 }
 
+<<<<<<< HEAD
+=======
+#text-1xl { @apply text-xl }
+#text-2xl { @apply text-2xl }
+#text-3xl { @apply text-3xl }
+#text-4xl { @apply text-4xl }
+#text-5xl { @apply text-5xl }
+#text-6xl { @apply text-6xl }
+#text-7xl { @apply text-7xl }
+#text-8xl { @apply text-8xl }
+
+>>>>>>> template/master
 /*
 html, body {
   @apply dark:bg-black;
@@ -120,6 +132,7 @@ h5,
 .h5,
 h6,
 .h6 {
+<<<<<<< HEAD
   @apply font-sans leading-none tracking-tight;
 }
 
@@ -137,6 +150,11 @@ h6,
 .h6,
 
 h1,
+=======
+}
+
+h1,
+>>>>>>> template/master
 .h1 {
   @apply text-4xl font-extrabold;
 }

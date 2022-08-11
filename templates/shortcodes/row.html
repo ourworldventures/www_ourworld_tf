@@ -9,8 +9,38 @@ Parameters:
 - bgPath: if bgPath is passed, the row has a full width background
 -->
 
+<<<<<<< HEAD
 {% set columns = body | safe | markdown | split(pat="|||") %}
 {% set row_class =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 md:flex md:flex-row md:py-4 lg:py-8"%}
+=======
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+{% if page %}
+    {% if "](" in body %}
+    {% set body_arr = body | split(pat="](") %}
+    {% set body = body_arr[0] %}
+        {% for i in body_arr %}
+            {% set prev_index = loop.index0 - 1 %}
+            {% if not loop.first %}
+            {% if "![" in body_arr[prev_index] %}
+                {% set_global body = body ~ '](' ~ page.permalink ~ i %}
+            {% else %}
+                {% if i is not starting_with("http") %}
+                    {% set base_url = get_url(path="") %}
+                    {% set_global body = body ~ '](' ~ base_url ~ i %}
+                {% else %}
+                    {% set_global body = body ~ '](' ~ i %}
+                {% endif %}
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% set columns = body | safe | markdown | split(pat="<p>|||</p>") %}
+
+{% set row_class =  "relative py-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 md:flex md:flex-row flex-wrap max-w-fit "%}
+>>>>>>> template/master
 
 <!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
@@ -19,7 +49,40 @@ Parameters:
     {% set row_class = row_class ~ " lg:items-center" %}
 {% endif %}
 
+<<<<<<< HEAD
 {% set col_class = "flex-1 mb-20 lg:mb-0 " %}
+=======
+{% set col_class = "flex-1 mb-4 md:mb-12 lg:mb-0 " %}
+{% set col_class = col_class ~ " lg:mx-8 " %}
+
+
+<!-- Margins -->
+
+{% set margin_class = " mx-4 md:mx-16 lg:mx-24 " %}
+
+{% if margin %}
+    {% if "none" in margin %}
+        {% set margin_class = " mx-0 " %}
+    {% elif "wide" in margin %}
+        {% set margin_class = " mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 " %}
+    {% elif "moderate" in margin %}
+        {% set margin_class = " mx-8 sm:mx-16 md:mx-24 lg:mx-28 " %}
+    {% elif "narrow" in margin %}
+        {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-32 " %}
+    {% elif "tight" in margin %}
+        {% set margin_class = " mx-20 sm:mx-32 md:mx-60 lg:mx-80 xl:mx-96 " %}
+    {% endif %}
+    {% if "lean-left" in margin %}
+        {% set col_class = col_class ~ " lg:last:px-20 lg:max-w-[50%] lg:mx-0 " %}
+        {% set row_class = row_class ~ " !ml-0 sm:gap-0 " %}
+    {% elif "lean-right" in margin %}
+        {% set col_class = col_class ~ " lg:first:px-20 lg:max-w-[50%] lg:mx-0 " %}
+        {% set row_class = row_class ~ " !mr-0 sm:gap-0 " %}
+    {% endif %}
+{% endif %}
+
+{% set row_class =  row_class ~ margin_class %}
+>>>>>>> template/master
 
 {% if style %}
 
@@ -34,22 +97,34 @@ Parameters:
             {% set col_class = col_class ~ " last:px-20 lg:max-w-[50%] " %}
             {% set row_class = row_class ~ " sm:gap-0 " %}
         {% elif "lean-right" in style %}
+<<<<<<< HEAD
             {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] " %}
+=======
+            {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] -mr-8 md:-mr-12 lg:-mr-16 xl:-mr-20 " %}
+>>>>>>> template/master
             {% set row_class = row_class ~ " sm:gap-0 " %}
         {% else %}
             {% set row_class = row_class ~ " md:py-0 " %}
             {% set col_class = col_class ~ " lg:m-0" %}
         {% endif %}    
     {% else %}
+<<<<<<< HEAD
         {% set row_class = row_class ~ " mx-8" %}
         {% set col_class = col_class ~ " lg:mx-8 " %}
+=======
+        {% set row_class = row_class ~ " w-screen " %}
+>>>>>>> template/master
     {% endif %}
 
      <!-- makes row semi-full screen width, strips margins -->
      {% if "between" in style %}
      {% set row_class = row_class ~ " lg:max-w-6xl " %}
  {% elif "moderate" in style %}
+<<<<<<< HEAD
      {% set row_class = row_class ~ " lg:mx-20 " %}
+=======
+     {% set row_class = row_class ~ " " %}
+>>>>>>> template/master
  {% endif %}
 
         <!-- makes row full screen width, strips margins -->
@@ -58,7 +133,11 @@ Parameters:
     {% elif "tight" in style %}
         {% set row_class = row_class ~ " lg:max-w-sm " %}
     {% elif "moderate" in style %}
+<<<<<<< HEAD
         {% set row_class = row_class ~ " lg:mx-20 " %}
+=======
+        {% set row_class = row_class ~ " mx-20 " %}
+>>>>>>> template/master
     {% endif %}
 
     {% if "invert-color" in style %}
@@ -66,9 +145,14 @@ Parameters:
                 {% set row_class = row_class ~ " text-white lg:text-white " %}
 
     {% endif %}
+<<<<<<< HEAD
 
     {% else %}
         {% set row_class = row_class ~ " mx-12 " %}
+=======
+    {% else %}
+        {% set row_class = row_class ~ " " %}
+>>>>>>> template/master
 {% endif %}
 
 {% set anchor_link = ""%}
@@ -81,8 +165,15 @@ Parameters:
 {% set styles = ""  %}
 {% set div_class = " " %}
 {% if bgPath %}
+<<<<<<< HEAD
     {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover; background-position: center;"  %}
     {% if "#desktop" in bgPath %}
+=======
+    {% set background_url = page.permalink ~ bgPath %}
+    {% set styles = "background: url('" ~ background_url ~ "'); background-size: cover; background-position: center;"  %}
+    {% if "#desktop" in bgPath %}
+        {% set bgStyle = false %}
+>>>>>>> template/master
         {% set div_class = " !bg-[length:0px_0px] !bg-no-repeat lg:!bg-cover " %}
         {% set row_class = row_class | replace(from='text-white', to='text-black') %}
         {% if "invert-color" in style %}
@@ -95,6 +186,11 @@ Parameters:
 {% if bgStyle %}
     {% if "full" in bgStyle %}
         {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
+<<<<<<< HEAD
+=======
+    {% elif "hero" in bgStyle %}
+        {% set div_class = div_class ~ " -mt-24 pt-24 " %}
+>>>>>>> template/master
     {% endif %}
 {% endif %}
 {% if bgColor %}
@@ -102,9 +198,19 @@ Parameters:
     {% set row_class = row_class ~ " py-0 " %}
 {% endif %}
 
+<<<<<<< HEAD
 
 <div id="{{anchor_link}}" class="{{'w-screen justify-center flex ' ~ div_class}}" style="{{styles}}">
     <div class="{{row_class}}" style="width: -webkit-fill-available"> 
+=======
+<!-- Cancels page margins so that rows can have separate margins -->
+{% set no_margins = " -mx-8 md:-mx-12 lg:-mx-16 xl:-mx-20" %}
+
+
+<div id="{{anchor_link}}" class="{{'w-screen relative justify-center flex ' ~ div_class ~ no_margins}}" style="{{styles}}">
+    <div class="{{row_class}}" style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+>>>>>>> template/master
         {% for column in columns%} 
 
             <!-- Hides empty columns if displayed vertically in small screen -->

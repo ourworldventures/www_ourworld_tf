@@ -1,6 +1,0 @@
-/public
-/.vscode
-# Local Netlify folder
-/.netlify
-/node_modules
-/static/css

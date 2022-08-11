@@ -1,8 +1,16 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
+<<<<<<< HEAD
 <!-- Landing page template, has a banner and rows of page summaries -->
 <main>
     {{section.content | safe}}
 </main>
+=======
+<!-- home page template, has a banner and rows of page summaries -->
+<div>
+    {% set page = get_page(path="home/index.md") %}
+    {{page.content | safe}}
+</div>
+>>>>>>> template/master
 {% endblock content %}
