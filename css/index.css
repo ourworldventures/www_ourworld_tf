@@ -1,5 +1,4 @@
 /*! purgecss start ignore */
-@import "nav.css";
 @import "code.css";
 /*! purgecss end ignore */
 
@@ -8,14 +7,15 @@
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 a {
@@ -32,34 +32,12 @@ img[src*="#mx-auto"] {
 }
 
 img[src*="#small"] {
-  width: 60px;
-}
-
-
-img[src*="#padded"] {
-    max-width: 80%;
-    margin: auto;
+  width: 68px;
 }
 
 img[src*="#medium"] {
   width: 400px;
   margin: auto;
-}
-
-img[src*="#mobile"] {
-    display: none;
-}
-
-@media (max-width: 440px) {
-    img[src*="#mobile"] {
-        display: block;
-    }
-}
-
-@media (max-width: 440px) {
-    img[src*="#desktop"] {
-        display: none;
-    }
 }
 
 img[src*="#logo"] {
@@ -89,28 +67,28 @@ img[src*="#tft_img"] {
     @apply font-semibold;
   }
   h2 {
-    @apply text-2xl md:text-4xl lg:text-5xl font-semibold leading-none;
+    @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal leading-none;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl lg:text-5xl font-medium leading-snug;
+    @apply text-3xl lg:text-6xl font-normal leading-none;
   }
   h3 strong {
     @apply font-semibold;
   }
   h4 {
-    @apply text-xl lg:text-4xl font-light tracking-wider leading-snug;
+    @apply text-xl lg:text-5xl font-normal;
   }
   h5 {
-    @apply text-xl lg:text-2xl font-light;
+    @apply text-xl lg:text-3xl font-normal;
   }
   h6 {
-    @apply text-md not-italic font-normal my-1;
+    @apply text-base not-italic font-normal my-1;
   }
   p {
-    @apply text-sm lg:text-md font-normal tracking-wide leading-normal;
+    @apply text-lg lg:text-2xl leading-tight;
     font-family: "Lato", sans-serif;
   }
   blockquote {
@@ -124,26 +102,16 @@ img[src*="#tft_img"] {
   }
   button {
     @apply inline-block
-    font-sans
-    text-sm
-    lg:text-xl
-    px-6
-    lg:px-16
+    lg:text-lg
+    px-12
     py-1
     mr-5
     my-10
     border-2
-    rounded-3xl
     shadow
-    font-bold
     capitalize;
   }
 }
-
-button.dark {
-  background-color: #1a1a1a;
-}
-
 
 button:hover :is(:where(a)) {
   color: #c6f8ff;
@@ -154,7 +122,6 @@ button :is(:where(p)) {
   font-weight: 400;
 }
 
-/*
 button {
   background-color: #1a1a1a;
   border-radius: 20px;
@@ -162,7 +129,6 @@ button {
   box-shadow: none;
   font-size: 20px;
 }
-*/
 
 button a {
   color: white;

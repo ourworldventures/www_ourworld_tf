@@ -55,10 +55,10 @@ smart_punctuation = true
 name = "categories"
 feed = true
 paginate_by = 2
-paginate_path = "/blog-posts"
+paginate_path = "blog-posts"
 
 [[taxonomies]]
 name = "categories"
 feed = true
 paginate_by = 2
-paginate_path = "/blog-posts"
+paginate_path = "blog-posts"
