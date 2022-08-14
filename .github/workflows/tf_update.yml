@@ -1,43 +1,24 @@
-<<<<<<< HEAD
 name: Ourworld.tf
 on: 
   push:
-    branch: [ master ]
-=======
-name: freeflow.life
-on: 
-  push:
     branch: [ development ]
->>>>>>> template/master
 
 jobs:
   job_one:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
     - name: pushing latest change on www.ourworld.tf
       uses: appleboy/ssh-action@master
       with:
         host: www.ourworld.tf
-=======
-    - name: pushing latest change on www2.freeflow.life
-      uses: appleboy/ssh-action@master
-      with:
-        host: www2.freeflow.life
->>>>>>> template/master
         username: root
         key: ${{ secrets.TF_SECRET }}
         port: 22
         script: |
-<<<<<<< HEAD
           cd /opt/www_ourworld_tf/
           git log -1
           git pull
           npm run build
-=======
-          cd /opt/www_freeflow_life
-          git log -1
-          git pull
-          bash build.sh
->>>>>>> template/master
+
+          
