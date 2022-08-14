@@ -10,7 +10,7 @@ extra:
 
 <!-- section 1 (header) -->
 
-![Image](/images/OW_Asset3.jpg)
+![Image](OW_Asset3.jpg)
 
 {% row(style="center narrow") %}
 
@@ -38,7 +38,7 @@ Creator Zones are dedicated to building super-sustainable coworking and co-livin
 
 |||
 
-![Image](/images/OW_Asset4.jpg)
+![Image](OW_Asset4.jpg)
 
 {% end %}
 
@@ -46,7 +46,7 @@ Creator Zones are dedicated to building super-sustainable coworking and co-livin
 
 {% row(style="center lean-left") %}
 
-![Image](/images/OW_Asset34.png)
+![Image](OW_Asset34.png)
 
 |||
 
@@ -78,7 +78,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 |||
 
-![Image](/images/OW_Asset25.png#large)
+![Image](OW_Asset25.png#large)
 
 {% end %}
 
@@ -86,7 +86,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 {% row(style="center lean-left") %}
 
-![Image](/images/OW_Asset5.jpg)
+![Image](OW_Asset5.jpg)
 
 |||
 

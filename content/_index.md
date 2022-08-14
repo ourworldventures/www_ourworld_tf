@@ -24,7 +24,7 @@ A better world is one where we all have access to endless information and opport
 
 |||
 
-![Image](/images/OWAsset-15.png#large)
+![Image](/images/ow_lp15.jpg)
 
 {% end %}
 

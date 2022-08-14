@@ -10,7 +10,7 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center lean-right") %}
+{% row(style="center" margin="narrow") %}
 
 ### EXPERIENCE
 
@@ -24,15 +24,15 @@ A better world is one where we all have access to endless information and opport
 
 |||
 
-![Image](/images/OWAsset-15.png#large)
+![Image](ow_lp15.jpg)
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center lean-left" bgColor="#c4ffeb") %}
+{% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
 
-![Image](/images/OW_Asset34.png)
+![Image](OW_Asset34.png)
 
 |||
 
@@ -52,11 +52,11 @@ A better world is one where we all have access to endless information and opport
 
 {{ space() }}
 
-{% row(style="center narrow") %}
+{% row(style="center narrow" margin="narrow") %}
 
 <br>
 
-![Image](/images/OWAsset-16.png)
+![Image](OWAsset-16.png)
 
 ### THE END OF
 
@@ -70,7 +70,7 @@ OurWorld allows you and your community to prosper together! Learn whatever your 
 
 {{ space() }}
 
-{% row(style="center lean-right" bgColor="#c4ffeb") %}
+{% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
 
 #### THE 4 LAYERS OF
 
@@ -84,15 +84,15 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 |||
 
-![Image](/images/OW_Asset25.png#large)
+![Image](OW_Asset25.png#large)
 
 {% end %}
 
 {{ space() }}
 
-{% row(style="center lean-left" bgColor="#fdfeea") %}
+{% row(style="center" margin="narrow" bgColor="#fdfeea") %}
 
-![Image](/images/OW_Asset36.png)
+![Image](OW_Asset36.png)
 
 |||
 
@@ -108,7 +108,7 @@ OurWorld exists to speed up the transition towards inclusivity. We create thrivi
 
 {% end %}
 
-{% row(style="center moderate") %}
+{% row(style="center moderate" margin="narrow") %}
 
 COMING SOON.
 
@@ -124,11 +124,11 @@ Soon, access all your OurWorld experiences through your Digital Twin. Communicat
 
 |||
 
-![Image](/images/OW_Asset26.jpg)
+![Image](OW_Asset26.jpg)
 
 {% end %}
 
-{% row(style="center narrow invert-color" bgColor="#4ec48f") %}
+{% row(style="center narrow invert-color" margin="narrow" bgColor="#4ec48f") %}
 
 ## WANNA GET **INVOLVED?**
 

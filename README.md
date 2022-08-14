@@ -9,7 +9,7 @@ A website created using Zola, a static site generator.
 
 ## Getting Started
 
-This repository is meant to use as a template for separate projects as well.
+This repository is meant to use as a template for static sites.
 
 To use this repository as a template, simply:
 
