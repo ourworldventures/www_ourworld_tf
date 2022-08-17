@@ -19,6 +19,6 @@ jobs:
           cd /opt/www_ourworld_tf/
           git log -1
           git pull
-          ./build.sh
+          npm run build
 
           
