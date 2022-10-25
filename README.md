@@ -1,6 +1,6 @@
 # OurWorld Website
 
-[https://ourverse.tf/](https://ourverse.tf/)
+[https://ourworld.tf/](https://ourworld.tf/)
 
 ## About
 
