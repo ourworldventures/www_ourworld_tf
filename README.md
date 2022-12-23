@@ -2,7 +2,7 @@
 
 The official website of OurWorld Powered by ThreeFold
 
-[www.ourworld.tf/](https://ourworld.tf/)
+[www.ourworld.tf](https://ourworld.tf/)
 
 ## Contribution
 
