@@ -12,13 +12,13 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: www.ourworld.tf
-        username: root
+        username: webuser
         key: ${{ secrets.TF_SECRET }}
-        port: 22
+        port: 34022
         script: |
-          cd /opt/www_ourworld_tf/
+          cd /home/webuser/websites/www_ourworld_tf/
           git log -1
           git pull
-          npm run build
+          bash build
 
           
