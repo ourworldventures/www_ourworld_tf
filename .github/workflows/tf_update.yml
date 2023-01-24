@@ -19,6 +19,6 @@ jobs:
           cd websites/www_ourworld_tf/
           git log -1
           git pull
-          bash build
+          bash build.sh
 
           
