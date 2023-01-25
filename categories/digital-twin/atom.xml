@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>ThreeFold - digital_twin</title>
+	<subtitle>Our global digital backbone</subtitle>
+	<link href="https://www.ourworld.tf/categories/digital-twin/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.ourworld.tf"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-07-23T00:00:00+00:00</updated>
+	<id>https://www.ourworld.tf/categories/digital-twin/atom.xml</id>
+	<entry xml:lang="en">
+		<title>This ThreeFold Farm Keeps Veggies Warm</title>
+		<published>2021-07-23T00:00:00+00:00</published>
+		<updated>2021-07-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.ourworld.tf/blog/2021/07/post-5/" type="text/html"/>
+		<id>https://www.ourworld.tf/blog/2021/07/post-5/</id>
+		<content type="html">&lt;p&gt;Somewhere in the Netherlands, a ThreeFold Farm is supporting the growth of vegetable crops such as tomatoes, peppers and cucumbers. By directing the excess heat generated from the hardware operations to the greenhouse next door, they are able to achieve an incredible model that benefits both hardware and vegetables.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+Jeroen Burks, CEO of Blockheating, tells us everything we need to know about their sustainable farming operations. As far as he can remember, Jeroen has always been a protagonist of the “no waste” approach. He started by recycling material previously used by the tech industry, mainly in the cloud market.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&amp;quot;By default, most data center operations replace their power supplies every 3 years, no matter the state they are in. They are being replaced to counter any possible downtime.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+By refurbishing and repurposing “old” power units from data centers, he gives them a second life as electric tractor chargers, lithium ION pack chargers, and more.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&amp;quot;You just need to trick the unit into thinking it is still powering servers, add some cables here and there, and it is ready for duty.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+His quest towards sustainability started when he was challenged on a pilot project. His friend had bought a new building and was looking for the most sustainable approach to heating it. Jeroen came up with the idea of putting two server racks in the basement and using the heat from that operation, to heat the offices and spaces above. While this project was a success, Jeroen realised that it could be way more efficient, if done with other structures.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+He quickly engaged with a second pilot project where he used two server racks to heat a small greenhouse. This model turned out to be a great combination, which benefited both hardware, as well as farming operations. And so sprouted ‘Blockheating’ -- a data center that provides heat for tomatoes, peppers and cucumbers. Why specifically these vegetables? Well, the Netherlands has a fair amount of greenhouses cultivating them, and these ‘veggies’ need that heat during summer nights.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+Right now Blockheating has around 400 compute nodes with direct cooling that stores all the heat in a buffer throughout the day, which is then released into the greenhouses during the night hours.
+&amp;quot;By doing it the way we do, we grow the internet grid, help grow vegetables and curb fossil fuel usage – in carbon negative compute power!&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+Right now, Blockheating has a portion of their data center dedicated to ThreeFold Farming for a few reasons:
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The alignment of values is huge&lt;&#x2F;li&gt;
+&lt;li&gt;ThreeFold Farming is easy to manage&lt;&#x2F;li&gt;
+&lt;li&gt;ThreeFold Farming counters wasteful behavior of internet resources, so it&#x27;s a triple win&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&#x2F;&gt;
+Blockheating envisions to scale up-to three data centers of this kind, in an interconnected way, with a fiber ring between them. By doing so, they will be able to increase their offering and have a larger impact on countering the wasteful patterns of the cloud industry. 
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+ThreeFold is proud to have Blockheating as a ‘State-of-the-Art’ Farmer and Partner, and hopes to see many more people and companies inspired by Blockheating around the world, to expand the ‘People’s Internet’ in a regenerative way. 
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&lt;p&gt;Find out more about Blockheating here: &lt;a href=&quot;https:&#x2F;&#x2F;blockheating.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;blockheating.com&#x2F;&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Find out more about our partners here: &lt;a href=&quot;https:&#x2F;&#x2F;threefold.io&#x2F;partners&quot;&gt;https:&#x2F;&#x2F;threefold.io&#x2F;partners&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Response - The Internet is Destroying Our Brains, but We Can&#x27;t Quit</title>
+		<published>2021-07-01T00:00:00+00:00</published>
+		<updated>2021-07-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.ourworld.tf/blog/2021/07/post-1/" type="text/html"/>
+		<id>https://www.ourworld.tf/blog/2021/07/post-1/</id>
+		<content type="html">&lt;p&gt;The other day, I came across &lt;a href=&quot;https:&#x2F;&#x2F;africa.businessinsider.com&#x2F;strategy&#x2F;the-internet-is-destroying-our-brains-but-we-cant-quit-its-a-factory-were-forced-to&#x2F;z4drxf5&quot;&gt;a poignant article&lt;&#x2F;a&gt; written by &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;_pem_pem&quot;&gt;P.E. Moskowitz&lt;&#x2F;a&gt; entitled &amp;quot;The internet is destroying our brains, but we can&#x27;t quit. It&#x27;s a factory we&#x27;re forced to work in without any pay.&amp;quot; As someone who started out in social media advertising (read: trying to capture peoples&#x27; attention to get them to buy or do something often by using their data against them), worked in influencer marketing in its early days, and has now gone 180º to help to build a decentralized Internet by people and for people (where people are digitally sovereign), it really resonated with me.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+It&#x27;s commonly-discussed (see: The Social Dilemma) and quite obvious if you use or have used the Internet and specifically social media, that we are addicted to being online. In fact, we&#x27;re actually even chemically triggered by social media and other online experiences. Said Jeff Orlowski, director of The Social Dilemma, &amp;quot;Social media powerhouses like Facebook, Twitter and Instagram are “designed” to exploit users’ brain chemistry in order to keep them glued to their phones... They were designed to get us to come back. It’s to figure out how to reverse-engineer what we’re most vulnerable to, most susceptible to, to come back. And what we are seeing is a dopamine response in the brain.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+In their article, Moskowitz points out how the Internet is not just like a toxic relationship or junk food, where you can leave or stop yourself from eating, rather it&#x27;s &amp;quot;an all-encompassing technology, our main economic engine, the tool we are forced to use to meet others and mediate our entire lives.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+The truth is that the Internet &lt;em&gt;has&lt;&#x2F;em&gt; become more than an addiction, it&#x27;s become a necessity to keep up in today&#x27;s increasingly-digital world. Yet the Internet is not even accessible to about 40% of the global population – and for those who &lt;em&gt;do&lt;&#x2F;em&gt; have access, it does not serve us. It&#x27;s actually the other way around. We are the product.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&amp;quot;We produce the memes, tweets, posts, and pictures that keep us tethered to the internet, and then that content is monetized in the form of advertisements - revenue users help produce, but do not usually see a penny of,&amp;quot; says Moskowitz. We have become cogs in a machine that uses us for its own benefit. Or as they call it, &amp;quot;a factory we&#x27;re forced to work in without any pay.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+&amp;quot;Our entire society has been reformulated around the internet, much like it was centered around the factory during the Industrial Revolution. If there&#x27;s an Amazon Web Services outage, much of our society stops functioning. Without the internet, we couldn&#x27;t find jobs, or, at this point, even friends.&amp;quot;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;so-what-do-we-do&quot;&gt;So, what do we do?&lt;&#x2F;h2&gt;
+&lt;p&gt;Moskowitz is correct in their thinking when they say the following, &amp;quot;A solution to our current internet-use crisis cannot come at an individual level anymore than one person quitting their job would solve capitalism&#x27;s poor working conditions. If we want any hope of making the internet less stressful, less back-breaking, and more fulfilling, content creators, gig economy workers, and even casual internet users need to push for a systemic solution.&amp;quot;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+Simply pending less time on the Internet or using certain apps instead of others is not going to make much of a difference in the end. There are billions of people on the Internet today to make up for the loss. And the underlying system is still massively flawed and can be manipulated. Bold, widespread, systemic change is indeed what we need. A revolution, perhaps.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As pointed out recently &lt;a href=&quot;https:&#x2F;&#x2F;tgdaily.com&#x2F;web&#x2F;6-dfinity-threefold-are-leading-an-internet-decentralization-revolution&#x2F;&quot;&gt;in TGDaily&lt;&#x2F;a&gt;, ThreeFold is that revolution.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+ThreeFold is the engine for a &lt;em&gt;new&lt;&#x2F;em&gt; Internet, driven by a movement of people who care about a better future. With more than two decades of direct knowledge of the Internet and Cloud industries, we flipped today&#x27;s Internet on its head. We rebuilt the architecture from the ground up, with people and our planet at the center of our focus. Instead of relying on centralized hyper-scale data centers owned by a few private corporations, we provide the opportunity for people across the world with access to a network connection and electricity to plug in hardware and provide local capacity, and earn income while they are at it.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+In our model, we prioritize simplicity, security, efficiency, and privacy. The technology runs autonomously, removing human error and malicious intent from the equation. Connections are peer-to-peer, meaning no middlemen get in the way of our content, our transactions, or other data. And importantly, people own their data. What we produce is ours. We decide where it gets stored and we decide who can access it (and for what value). In fact, it&#x27;s basically impossible from a technical standpoint for anybody to access someone&#x27;s data without their consent – including us.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+On top of the technology, we provide experiences. People will have one single log-in and verifiable identity, and gain access to the tools (experiences) they need for communication and for work. As we are a decentralized movement, soon, anybody will be able to build anything they like on top of ThreeFold – but it is our vision and belief that the Internet should not be addictive. Rather a tool for all of humanity to connect, learn, and prosper – with people at the center, not treated as products.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+To the author&#x27;s concern, content creators and gig economy workers would clearly benefit from such a digital world as well. Of course services like Airbnb or Uber or Etsy or even YouTube provide value as they are crowded marketplaces both for providers and customers. That said, they profit from people, typically on both sides of the transaction. In a peer-to-peer world, we can create fair and equal marketplaces where the content or product is owned completely by the person listing it there and the value goes 100% directly from person to person. This means no hidden fees, no uncertainty over ownership, no censorship or control from a third party. Of course it&#x27;s not all predetermined at this moment, but what I can say is that our biggest concerns in what we create are and will always be fairness and equality (and sustainability &#x2F; regeneration). So, together, we will bring all of this tolife in the best interest of people.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;join-the-movement&quot;&gt;Join the Movement&lt;&#x2F;h2&gt;
+&lt;p&gt;In their article, Moskowitz concluded that &amp;quot;perhaps it is only a matter of time before enough of us say &#x27;enough,&#x27; and protest the internet&#x27;s totalizing grasp on our labor and our lives.&amp;quot; But where does protest lead without a viable solution? Maybe this is the type of systemic change Moskowitz could imagine and could stand behind. It&#x27;s not a band-aid approach, rather a total re-imagination and re-execution of today&#x27;s flawed and manipulative Internet. It&#x27;s an Internet by people, for people. Instead of working in the factory, we become the factory co-owners – and the Internet works for us.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+If you believe in what we are building, we invite you to join the movement:
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;threefold.io&#x2F;farming&quot;&gt;Become a farmer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;threefoldnews&quot;&gt;Stay updated on ThreeFold News&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;threefold&quot;&gt;Join the conversation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;threefoldtesting&quot;&gt;Test the technology&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;threefold_io&quot;&gt;Follow us on Twitter&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;library.threefold.me&#x2F;info&#x2F;tfgrid&#x2F;#&#x2F;threefold__how_to_buy_and_sell&quot;&gt;Buy the ThreeFold Token&lt;&#x2F;a&gt;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We are a growing group of people from around the world who not only believe what many of you believe, but we are doing something about it. Let&#x27;s grow the People&#x27;s Internet, together.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

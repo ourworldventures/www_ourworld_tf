@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+    
+
+
+
+
+
+<head>
+  <meta name="generator" content="Zola v.0.13.0 - getzola.org" />
+
+  
+  
+  <title>Can a &#x27;Democratized&#x27; Internet exist in times of a Cyber War? &bull; ThreeFold</title>
+  <meta property="og:title" content="Can a &#x27;Democratized&#x27; Internet exist in times of a Cyber War? &bull; ThreeFold" />
+  
+  
+
+  <!-- Required meta categories -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- **** BEGINNING, favicons **** -->
+
+  <!-- generics -->
+
+  <!-- iOS -->
+
+  <!-- Android -->
+
+  <!-- Windows 8, IE 10 -->
+
+  <!-- Windows 8.1 and up, IE 11 -->
+
+  <!-- **** CONCLUSION, favicons **** -->
+
+  <!-- CSS/SCSS -->
+  <link rel="stylesheet" href="https://www.ourworld.tf/css/index.css?h=c3802690f633e31c633045bfdbdd4cac4750b75dffadff6ee1eadc09c21c1467" />  <style>@-moz-document url-prefix() {.lazy:-moz-loading {visibility:hidden;}}.ieOnly {display: none;}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.ieOnly {display: block;}}</style>
+  
+</head>
+
+    
+    <body>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-blue-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-blue-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<!-- set variables used for header template -->
+
+
+
+
+
+    
+    
+    <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-blue-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-blue-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<header id="header-container">
+    <div class="z-10 bg-white fixed w-screen">
+        <div class="relative z-50 shadow">
+        <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+            <div>
+                <a href="/" class="flex">
+                    <img class="w-48 h-auto sm:w-15" src="&#x2F;images&#x2F;OW_Logo.png" alt="Ourworld Logo" />
+                </a>
+            </div>
+            <div class="-mr-2 -my-2 lg:hidden">
+                <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <!-- Heroicon name: menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                <!-- Heroicon name: x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-end lg:space-x-12">
+            <nav class="flex space-x-10">
+
+
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;creator-zones" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            CREATOR ZONES
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="platform" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            PLATFORM
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;experiences" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            EXPERIENCES
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;blog" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            BLOGS
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="mailto:info@ourworld.tf" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            CONTACT
+        </a>
+      
+
+
+</nav>
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-creator-zones-22-creator-zones-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22platform-22-platform-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-experiences-22-experiences-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-blog-22-blogs-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22mailto-info-ourworld-tf-22-contact-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+</ul>
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+        <!--
+        Mobile menu, show/hide based on mobile menu state.
+    
+        Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+    <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+        <div>
+            <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+                <div class="pb-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+
+                    <nav class="flex flex-col justify-around pb-12">
+                    
+
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;creator-zones" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    CREATOR ZONES
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="platform" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    PLATFORM
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;experiences" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    EXPERIENCES
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;blog" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    BLOGS
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="mailto:info@ourworld.tf" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    CONTACT
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+                    
+                    
+                    
+                    <div class="mx-8 mt-8">
+                        <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
+                          <img class="w-48 h-auto" src="&#x2F;images&#x2F;OurVerse-logo.png" alt="Company name" />
+                          <p class="text-gray-500 text-base leading-6 ">
+                            The only truly decentralized metaverse on the planet awaits you.
+                          </p>
+                      </div>
+                    
+                    </nav>                    
+                </div>
+            
+        </div>
+        
+        </div>
+    </div>
+
+
+</header>
+
+
+
+
+
+        <div id="content" class="mx-8 md:mx-12 lg:mx-16 xl:mx-20 pt-24">
+            
+
+<!-- Default page template for blog posts and basic informative markdown files -->
+<main>
+
+<div class="sm:w-5/6 md:w-4/5 mr-auto ml-auto px-6 lg:px-16 xl:w-11/12">
+<img class="max-h-60 sm:max-h-60 md:max-h-80 lg:max-h-96 mx-auto" src=/images/blog/cyberwar.png alt="">
+<div>
+    <article class="article lg:w-5/6 mx-auto">
+    <h2 class="tracking-tight pt-8 lg:pt-8 2xl:pt-24 text-left fw-500 leading-snug font-normal mb-10">
+        Can a &#x27;Democratized&#x27; Internet exist in times of a Cyber War? 
+    </h2>
+    <h4 class="text-sm not-italic font-light leading-6 text-gray-600"> 
+    </h4>
+        
+      <p>On February 24 2022, Russia launched a large-scale military invasion and attack on Ukraine. In the days since the invasion began, the war has been fought not only on the ground and in the air, but also in the digital realm.</p>
+<br/>
+<p>Cyber warfare is nothing new, especially in Russia and Eastern Europe. “In the relatively short and rapidly evolving history of cyber conflict, perhaps nothing has been established with greater certainty and more widely accepted than the idea that Russia has significant cyber capabilities and isn’t afraid to use them,” <a href="https://time.com/6153902/russia-major-cyber-attacks-invasion-ukraine/">writes Josephine Wolff</a>, associate professor of cybersecurity policy at Tufts University. “Especially on Ukraine.”</p>
+<br/>
+<p>Leading up to the invasion, Ukraine experienced a series of cyberattacks on its critical infrastructures, including banks and government agencies. On February 23 2022, just a day before the launch of Russia’s military attack, websites of the Ukrainian parliament and multiple government agencies were put out of work. Similar cyber attacks had also been seen in early February and <a href="https://www.economist.com/europe/2022/02/23/will-war-in-ukraine-lead-to-a-wider-cyber-conflict?utm_campaign=a.io&amp;utm_medium=audio.podcast.np&amp;utm_source=babbage&amp;utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&amp;utm_term=sa.listeners">were attributed to GRU</a>, Russia’s military-intelligence agency. And Ukrainian cities continue to suffer from <a href="https://www.economist.com/graphic-detail/2022/02/26/ukrainian-cities-are-suffering-internet-blackouts?utm_campaign=a.io&amp;utm_medium=audio.podcast.np&amp;utm_source=babbage&amp;utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&amp;utm_term=sa.listeners">internet blackouts</a>. On Sunday, Ukraine’s vice president even called for tech specialists and hackers to join the “cyber front.” While the predictions of a Russian “cyber onslaught” have not necessarily come true yet, both sides have engaged in cyber attacks on visible and invisible levels.</p>
+<h2 id="a-rise-in-state-sponsored-cyber-attacks-globally">A Rise in State-Sponsored Cyber Attacks Globally</h2>
+<p>Digital or cyber warfare does not just apply to Russia and Ukraine. Broadly, cybersecurity experts have been raising concerns in recent years amid a sharp rise in ransomware and other types of digital attacks globally.</p>
+<br/>
+<p>Adam Meyers, Senior Vice President of Intelligence at the cybersecurity firm CrowdStrike <a href="https://www.marketplace.org/2022/02/24/cybersecurity-to-take-center-stage-as-conflict-continues-in-ukraine/">said</a>: “Just in the last year, I think we’ve seen over 2,700 big-game hunting attacks [cyberattacks that target high-value data]. So they’re far and away that most prevalent actor. Nation-state actors are continuously operating as well, but they tend to operate a little bit more under the radar. They don’t conduct as many widespread and widely known attacks. They try to, obviously, steal information without it being identified that they’ve stolen it.”</p>
+<br/>
+<p>Nevertheless, these are just the most current examples – Russia is hardly the only country engaging in cyber warfare at a larger scale. In fact, it is becoming increasingly difficult for governments, corporations and organizations to protect themselves against cyber attacks, especially against <a href="https://www.economist.com/business/2022/02/19/companies-have-a-lot-to-fear-from-russias-digital-warmongering?utm_campaign=a.io&amp;utm_medium=audio.podcast.np&amp;utm_source=babbage&amp;utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&amp;utm_term=sa.listeners">state-sponsored attacks</a>. And in the digital space, the best and most dangerous hacks are those that go unnoticed until it’s too late.</p>
+<h2 id="some-governments-are-sectioning-off-the-internet-through-digital-borders">Some Governments are Sectioning Off the Internet Through Digital Borders</h2>
+<p>A set of countries like Russia, China, Saudi Arabia, and Iran have certain <a href="https://www.codastory.com/authoritarian-tech/global-rise-internet-sovereignty/">aspirations for the internet</a>. Domestically, these countries want control and think governments should get to decide what information flows across their borders. Globally, they want governments, not companies and NGOs, to be in charge of the internet. While some may say that government-owned internet infrastructures would be the only way to protect a country’s sovereignty, it goes without saying that what once was a neutral space for humanity to connect and exchange information is turning into a political schema.</p>
+<br/>
+<p>Taken together, these goals are an attempt to align cyberspace with national borders, so they are sometimes dubbed the <a href="https://www.codastory.com/authoritarian-tech/global-rise-internet-sovereignty/">“cyber sovereignty” doctrine</a>. The term comes from China, whose internet censorship system, called the Great Firewall, is the vanguard of the global cyber-sovereignty push. China’s cyberspace agency released a much-ridiculed musical ode to cybersecurity under Lu Wei’s leadership, which included the line: “A cyberpower: Where the Internet is, so is the glorious dream.”</p>
+<br/>
+<p>The vision of effective cyber-sovereignty is expanding to new horizons. A November <a href="https://www.codastory.com/authoritarian-tech/global-rise-internet-sovereignty/">report</a> from Freedom House examined 65 countries and found since the previous year that internet freedom declined in 26 of them. Chinese-style “digital authoritarianism,” meanwhile, is growing in influence as China exports both its surveillance known-how and technology.</p>
+<br/>
+<p>The problem here is that digital sovereignty is a major concept that not only addresses the issues of communication and connection but also the impact on societies and culture at large. With cyber sovereignty turning into a non-territorial challenge to sovereignty itself irrespective of the virtual realm of the internet, is there a way out for humanity?</p>
+<h2 id="a-free-and-sovereign-cyber-space-is-needed">A Free and Sovereign Cyber Space is Needed</h2>
+<p>It is evident that the current internet is facing some big challenges that have major implications for humanity. Data privacy and self-sovereignty is almost impossible today, raising serious questions towards those that control the Internet. But it also seems that these companies fell into the trap of their own business models and algorithms.</p>
+<br/>
+<p>When taking a step back, the world seems just a few years away from the Matrix, as depicted by the Wachowskis.</p>
+<br/>
+<p>The Internet is playing an incredibly important role for the most powerful intelligence companies. As depicted by Meyers, we wouldn’t even notice that our information is being stolen all the time to benefit the greed of powerful geo-political actors. The internet is not a public good anymore, and unless humanity reacts fast, it may be that the world will lose all forms of freedom or sovereignty.</p>
+<br/>
+<p><a href="https://www.eff.org/cyberspace-independence">“A declaration of the Independence of Cyberspace”</a> by John Perry Barlow once attempted to shed light on the applicability of government and institutions on the rapidly growing internet, already in 1996 trying to protect its neutrality. According to research, the world is experiencing innovation at an increasingly rapid pace. With the rise of blockchains and web3 technology, could the dream of John Perry Barlow turn into reality?</p>
+<h2 id="so-what-is-the-solution">So, What is the Solution?</h2>
+<p>In a world aching for more decentralization and less dependence on governments and corporations, new decentralized and peer-to-peer models are already proving to be more resilient and secure. New Internet infrastructure companies such as ThreeFold have successfully built peer-to-peer internet infrastructures that are more resilient than the current centralized model. On such systems, people and enterprises can store their data and run their applications on a distributed network of computers in such a way that their data cannot be corrupted. ThreeFold even created a so-called “quantum safe” storage that guarantees that even the most powerful computers in the world wouldn’t be able to reconstruct user data.</p>
+<br/>
+<p>The escalation of this cyber conflict can lead to unforeseen consequences and casualties. That is why it is especially important that our industry works together to protect customers, partner, employees and citizens. ThreeFold is on a mission to realize the promise of a fully-comprehensive, open-source and peer-to-peer internet infrastructure. ThreeFold is a platform for the creators of tomorrow to build that blueprint of responsibility and ensure that the outcome of future systems is neutrality.</p>
+<Br/>
+<p>Join ThreeFold in building the new internet.</p>
+
+    </article>
+</div>
+</div>
+</main>
+
+    
+        </div>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+
+
+
+<footer class="bottom-0 mx-20">
+    
+        
+    
+</footer>
+    </body>
+</html>

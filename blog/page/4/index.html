@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+    
+
+
+
+
+
+<head>
+  <meta name="generator" content="Zola v.0.13.0 - getzola.org" />
+
+  
+  
+  <title>Blog &bull; ThreeFold</title>
+  <meta property="og:title" content="Blog &bull; ThreeFold" />
+  
+  
+
+  <!-- Required meta categories -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- **** BEGINNING, favicons **** -->
+
+  <!-- generics -->
+
+  <!-- iOS -->
+
+  <!-- Android -->
+
+  <!-- Windows 8, IE 10 -->
+
+  <!-- Windows 8.1 and up, IE 11 -->
+
+  <!-- **** CONCLUSION, favicons **** -->
+
+  <!-- CSS/SCSS -->
+  <link rel="stylesheet" href="https://www.ourworld.tf/css/index.css?h=c3802690f633e31c633045bfdbdd4cac4750b75dffadff6ee1eadc09c21c1467" />  <style>@-moz-document url-prefix() {.lazy:-moz-loading {visibility:hidden;}}.ieOnly {display: none;}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.ieOnly {display: block;}}</style>
+  
+</head>
+
+    
+    <body>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-blue-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-blue-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<!-- set variables used for header template -->
+
+
+
+
+
+    
+    
+    <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-blue-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-blue-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<header id="header-container">
+    <div class="z-10 bg-white fixed w-screen">
+        <div class="relative z-50 shadow">
+        <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+            <div>
+                <a href="/" class="flex">
+                    <img class="w-48 h-auto sm:w-15" src="&#x2F;images&#x2F;OW_Logo.png" alt="Ourworld Logo" />
+                </a>
+            </div>
+            <div class="-mr-2 -my-2 lg:hidden">
+                <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <!-- Heroicon name: menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                <!-- Heroicon name: x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-end lg:space-x-12">
+            <nav class="flex space-x-10">
+
+
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;creator-zones" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            CREATOR ZONES
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="platform" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            PLATFORM
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;experiences" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            EXPERIENCES
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="&#x2F;blog" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            BLOGS
+        </a>
+      
+
+
+
+    
+    
+    
+        
+        
+        <a href="mailto:info@ourworld.tf" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            CONTACT
+        </a>
+      
+
+
+</nav>
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-creator-zones-22-creator-zones-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22platform-22-platform-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-experiences-22-experiences-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22-blog-22-blogs-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+    
+    
+    
+
+<nav>
+    <div id="a-href-22mailto-info-ourworld-tf-22-contact-a-menu" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:p-6 md:p-8 lg:p-12 xl:p-12">
+            
+</ul>
+
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+
+
+
+    
+        <!--
+        Mobile menu, show/hide based on mobile menu state.
+    
+        Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+    <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+        <div>
+            <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+                <div class="pb-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+
+                    <nav class="flex flex-col justify-around pb-12">
+                    
+
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;creator-zones" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    CREATOR ZONES
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="platform" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    PLATFORM
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;experiences" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    EXPERIENCES
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="&#x2F;blog" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    BLOGS
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+
+                        
+                            
+                            
+                            
+                                
+                                
+                                <a href="mailto:info@ourworld.tf" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    CONTACT
+                                </a>
+                            
+                            <hr/>
+                        
+                    
+                    
+                    
+                    
+                    <div class="mx-8 mt-8">
+                        <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
+                          <img class="w-48 h-auto" src="&#x2F;images&#x2F;OurVerse-logo.png" alt="Company name" />
+                          <p class="text-gray-500 text-base leading-6 ">
+                            The only truly decentralized metaverse on the planet awaits you.
+                          </p>
+                      </div>
+                    
+                    </nav>                    
+                </div>
+            
+        </div>
+        
+        </div>
+    </div>
+
+
+</header>
+
+
+
+
+
+        <div id="content" class="mx-8 md:mx-12 lg:mx-16 xl:mx-20 pt-24">
+            
+
+<main>
+
+    <!--sets global featured variable as the most recent post with the isFeatured tag-->
+    
+    
+    
+    
+        
+    
+    <body>
+        
+    <div class="md:grid md:grid-cols-2 md:gap-8 relative mt-16 lg:mt-16 items-center">
+      <div class="relative lg:ml-8 my-8 w-full md:w-auto">
+        <h3 class="text-base not-italic leading-6 text-gray-600">FEATURED POST</h3>
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2022&#x2F;03&#x2F;post-8&#x2F; class="">
+            <h2 class="mt-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl fw-500 leading-snug font-normal mb-2 md:mb-4">
+                Co-Realizing the Promise
+            </h2>
+        </a>
+        <p class="mb-4 md:mb-10 text-lg lg:pr-4">
+            Together with our global community, we&#x27;re realizing the initial promise of an open-source, peer-to-peer Internet owned by the people.
+        </p>
+        
+        <h4 class="text-sm not-italic font-light leading-6 text-gray-600"> 
+            March 21, 2022 - 
+            Sacha Obeegadoo
+        </h4>
+            
+      </div>
+
+      <div class="-mx-4 relative lg:mt-0 max-w-full">
+        <img class="relative mx-auto w-7/12 md:w-auto md:max-w-full max-h-80" src=/images&#x2F;blog&#x2F;realizing_the_promise.png alt="" />
+      </div>
+    </div>
+
+  </div>
+</div>
+</body> 
+
+    <div class="flex flex-col md:flex-row">
+        
+
+<div class="font-sans text-center px-0 md:w-full md:w-2/3 lg:w-2/3 mx-8 md:mx-12">
+  <h1
+    class="tracking-tight text-5xl text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl fw-500 leading-snug font-normal mb-10"
+  >
+  
+  
+  
+    The Latest from ThreeFold   
+    
+  </h1>
+  <div>
+    <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-2 xl:grid-cols-3 lg:max-w-none"> 
+        
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0">
+      <img class="h-48 w-full mx-auto object-cover" src=/images&#x2F;blog&#x2F;better_solution.png alt="" />
+    </div>
+    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1">
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2020&#x2F;12&#x2F;post-1&#x2F; class="block">
+          <h3 class="mt-2 text-xl leading-7 font-medium text-gray-900 text-left not-italic">
+            A Better Solution for Our Planet
+          </h3>
+          
+          <p class="mt-3 text-sm font-normal leading-6 text-gray-500 text-left">
+              We believe IT can be sustainable. Actually, it should be! That&#x27;s why energy efficiency has always been a key focus of ours..
+        </p>
+        
+        </a>
+      </div>
+      <div class="mt-6 flex items-center">
+        <div>
+          <p class="text-sm leading-5 font-medium text-gray-900 text-left">
+              Weynand Kuijpers
+          </p>
+          <div class="flex text-sm leading-5 text-gray-500 text-left">
+            <time datetime="2020-03-16">
+                December  2, 2020
+            </time>
+            <span class="mx-1">
+              &#xB7;
+            </span>
+            <span>
+              6 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+         
+        
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0">
+      <img class="h-48 w-full mx-auto object-cover" src=/images&#x2F;blog&#x2F;why_we_do.png alt="" />
+    </div>
+    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1">
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2020&#x2F;04&#x2F;post-1&#x2F; class="block">
+          <h3 class="mt-2 text-xl leading-7 font-medium text-gray-900 text-left not-italic">
+            Why We Do What We Do
+          </h3>
+          
+          <p class="mt-3 text-sm font-normal leading-6 text-gray-500 text-left">
+              If not now, when? If not us, who?
+        </p>
+        
+        </a>
+      </div>
+      <div class="mt-6 flex items-center">
+        <div>
+          <p class="text-sm leading-5 font-medium text-gray-900 text-left">
+              Sam Taggart
+          </p>
+          <div class="flex text-sm leading-5 text-gray-500 text-left">
+            <time datetime="2020-03-16">
+                April  8, 2020
+            </time>
+            <span class="mx-1">
+              &#xB7;
+            </span>
+            <span>
+              6 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+         
+        
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0">
+      <img class="h-48 w-full mx-auto object-cover" src=/images&#x2F;blog&#x2F;internet_is_growing_wild.png alt="" />
+    </div>
+    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1">
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2019&#x2F;12&#x2F;post-1&#x2F; class="block">
+          <h3 class="mt-2 text-xl leading-7 font-medium text-gray-900 text-left not-italic">
+            Internet is growing wild
+          </h3>
+          
+          <p class="mt-3 text-sm font-normal leading-6 text-gray-500 text-left">
+              The internet is growing at an extremely fast pace, but is that a good thing?
+        </p>
+        
+        </a>
+      </div>
+      <div class="mt-6 flex items-center">
+        <div>
+          <p class="text-sm leading-5 font-medium text-gray-900 text-left">
+              Andreas Hartl
+          </p>
+          <div class="flex text-sm leading-5 text-gray-500 text-left">
+            <time datetime="2020-03-16">
+                December  5, 2019
+            </time>
+            <span class="mx-1">
+              &#xB7;
+            </span>
+            <span>
+              6 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+         
+        
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0">
+      <img class="h-48 w-full mx-auto object-cover" src=/images&#x2F;blog&#x2F;unique.png alt="" />
+    </div>
+    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1">
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2019&#x2F;12&#x2F;post-2&#x2F; class="block">
+          <h3 class="mt-2 text-xl leading-7 font-medium text-gray-900 text-left not-italic">
+            You Are Unique
+          </h3>
+          
+          <p class="mt-3 text-sm font-normal leading-6 text-gray-500 text-left">
+              During a gathering with some friends, I noticed something that made me think about how important it is what we’re doing.
+        </p>
+        
+        </a>
+      </div>
+      <div class="mt-6 flex items-center">
+        <div>
+          <p class="text-sm leading-5 font-medium text-gray-900 text-left">
+              Sabrina Sadik
+          </p>
+          <div class="flex text-sm leading-5 text-gray-500 text-left">
+            <time datetime="2020-03-16">
+                December  5, 2019
+            </time>
+            <span class="mx-1">
+              &#xB7;
+            </span>
+            <span>
+              6 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+         
+        
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0">
+      <img class="h-48 w-full mx-auto object-cover" src=/images&#x2F;blog&#x2F;escape_great_hack.png alt="" />
+    </div>
+    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+      <div class="flex-1">
+        <a href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2019&#x2F;11&#x2F;post-1&#x2F; class="block">
+          <h3 class="mt-2 text-xl leading-7 font-medium text-gray-900 text-left not-italic">
+            An escape from the Great Hack
+          </h3>
+          
+          <p class="mt-3 text-sm font-normal leading-6 text-gray-500 text-left">
+              I can’t help but think how unfair it is that in today’s digital society, people are being treated like products, because there is no such thing as a ‘free’ platform without YOU being the product.
+        </p>
+        
+        </a>
+      </div>
+      <div class="mt-6 flex items-center">
+        <div>
+          <p class="text-sm leading-5 font-medium text-gray-900 text-left">
+              Sabrina Sadik
+          </p>
+          <div class="flex text-sm leading-5 text-gray-500 text-left">
+            <time datetime="2020-03-16">
+                November 21, 2019
+            </time>
+            <span class="mx-1">
+              &#xB7;
+            </span>
+            <span>
+              6 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+        
+    </div>
+    <hr class="mt-6" />
+    <p class="text-center text-sm mt-2 mb-16">
+      
+      <a
+        class="border-transparent"
+        aria-label="First page"
+        href="https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;"
+        ><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1.22465e-16,-2,2,1.22465e-16,0,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1.22465e-16,-2,2,1.22465e-16,0,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg></a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a
+        class="border-transparent"
+        aria-label="Previous page"
+        href="https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;page&#x2F;3&#x2F;"
+        ><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1.22465e-16,-2,2,1.22465e-16,0,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg></a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+      <a
+        class="border-transparent"
+        aria-label="Next page"
+        href="https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;page&#x2F;5&#x2F;"
+        ><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(-1.22465e-16,-2,-2,1.22465e-16,48,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg></a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a
+        class="border-transparent"
+        aria-label="Last page"
+        href="https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;page&#x2F;5&#x2F;"
+        ><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(-1.22465e-16,-2,-2,1.22465e-16,48,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg><svg width="12px" height="12px" class="inline" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(-1.22465e-16,-2,-2,1.22465e-16,48,48)"><path d="M12,0L24,24L0,24L12,0Z" style="fill:rgb(0,170,255);"/></g></svg></a
+      >
+      
+    </p>
+  </div>
+</div>
+
+
+
+        
+<div class="mx-8 md:mx-4 flex flex-col">
+    <div class="flex flex-col mb-12 mr-8 lg:mr-24">
+        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FILTER POSTS BY</h4>
+        <a id="all" class="mb-3 text-black font-normal" href="/blog">All</a>
+        
+        
+        
+            
+            
+            <a id="blockchain" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;blockchain> blockchain </a>
+        
+            
+            
+            <a id="community" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;community> community </a>
+        
+            
+            
+            <a id="data" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;data> data </a>
+        
+            
+            
+            <a id="digital-twin" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;digital-twin> digital_twin </a>
+        
+            
+            
+            <a id="farming" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;farming> farming </a>
+        
+            
+            
+            <a id="interview" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;interview> interview </a>
+        
+            
+            
+            <a id="peer-to-peer" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;peer-to-peer> peer_to_peer </a>
+        
+            
+            
+            <a id="technology" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;technology> technology </a>
+        
+            
+            
+            <a id="threefold-cloud" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;threefold-cloud> threefold_cloud </a>
+        
+            
+            
+            <a id="threefold-farming" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;threefold-farming> threefold_farming </a>
+        
+            
+            
+            <a id="threefold-grid" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;threefold-grid> threefold_grid </a>
+        
+            
+            
+            <a id="update" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;update> update </a>
+        
+            
+            
+            <a id="why" class="mb-3 text-black font-normal" href=&#x2F;categories&#x2F;why> why </a>
+        
+    </div>
+
+
+
+    <div class="lg:pt-6 flex flex-col mb-12 w-64 mr-8 lg:mr-24">
+        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FEATURED POSTS</h4>
+
+        
+        
+        
+        
+            <a class="mb-3 text-blue-700" href=https:&#x2F;&#x2F;www.ourworld.tf&#x2F;blog&#x2F;2022&#x2F;03&#x2F;post-8&#x2F;>Co-Realizing the Promise</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div>
+
+<script>
+    function setActiveCategory() {
+        let activeCategory = window.location.pathname.split("/")[2]    
+        if (typeof activeCategory === "undefined") { activeLink = document.getElementById("all") }
+        else { activeLink = document.getElementById(activeCategory)}
+        activeLink.className = activeLink.className.replace("text-black font-normal", "text-black font-semibold");
+    }
+
+    setActiveCategory()
+</script>
+    </div>
+ </main> 
+ 
+     
+        </div>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+
+
+
+<footer class="bottom-0 mx-20">
+    
+        
+    
+</footer>
+    </body>
+</html>
