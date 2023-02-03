@@ -14,9 +14,9 @@ extra:
 
 {% row(style="center lean-right") %}
 
-### GROWTH BEGINS
+### GROWTH BEGINS IN
 
-#### IN CREATOR ZONES
+## THE CREATOR ZONE
 
 <br>
 
@@ -38,6 +38,7 @@ Creator Zones are set up to allow aspiring entrepreneurs, business people and di
 
 |||
 
+### THE
 ## LOVE OF NATURE
 
 <br/>
@@ -58,9 +59,9 @@ to become the standard of every Creator Zone.
 
 |||
 
-## BUILT BY
+### BUILT BY
 
-### TOGETHERNESS
+## TOGETHERNESS
 
 <br/>
 
@@ -95,9 +96,9 @@ We work with the local population to allow them to help and earn from the Creato
 
 {% row(style="center lean-right") %}
 
-### THE POWER
+### THE POWER OF
 
-## OF P2P
+## P2P
 
 <br>
 

@@ -26,7 +26,7 @@ A better world is one where we all have access to endless information and opport
 
 |||
 
-![Image](./images/ow_lp15.jpg)
+![Image](./images/abundance.png)
 
 {% end %}
 
@@ -34,15 +34,12 @@ A better world is one where we all have access to endless information and opport
 
 {% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
 
-![Image](./images/ow_lp0.png)
+![Image](./images/creator.png)
 
 |||
 
-## THE
-
-## CREATOR
-
-## ZONE
+### THE 
+## CREATOR ZONE
 
 <br/>
 
@@ -78,9 +75,9 @@ OurWorld allows you and your community to prosper together!
 
 {% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
 
-#### THE 4 LAYERS OF
+### THE 4 LAYERS OF
 
-### TRANSFORMATION.
+## TRANSFORMATION
 
 <br>
 
@@ -116,13 +113,10 @@ OurWorld exists to speed up the transition towards inclusivity. We create thrivi
 
 {% row(style="center moderate" margin="narrow") %}
 
-COMING SOON.
-
-<br/>
 
 ### THE DIGITAL
 
-# TWIN
+## TWIN
 
 <br>
 

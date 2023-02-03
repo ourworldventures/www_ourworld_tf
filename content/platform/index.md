@@ -10,9 +10,11 @@ extra:
 
 <!-- section 1 (header) -->
 
-![Image](img/OW_Asset3.jpg)
 
 {% row(style="center narrow") %}
+
+
+![Image](img/layer.png#large)
 
 ### THIS IS HOW THE WORLD TRANSFORMS
 
