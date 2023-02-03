@@ -50,16 +50,6 @@ to become the standard of every Creator Zone.
 
 {{ space() }}
 
-{% row(style="center narrow") %}
-
-<br>
-
-![Image](./images/ow_lp12.png)
-
-<br>
-
-{{ space() }}
-
 {% row(style="center lean-left" bgColor="#e9fcff") %}
 
 ![Image](./images/coworking.png)
@@ -85,7 +75,7 @@ We have created an environment where collaboration and team work lead to the dev
 
 <br>
 
-![Image](./images/regenerative.jpg)
+![Image](./images/regenerative.png)
 
 <br>
 
