@@ -38,7 +38,7 @@ Creator Zones are dedicated to building super-sustainable coworking and co-livin
 
 |||
 
-![Image](/images/OW_Asset4.jpg)
+![Image](./images/ow_lp1.png)
 
 {% end %}
 
