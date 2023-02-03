@@ -9,7 +9,7 @@ extra:
 ---
 
 - [CREATOR ZONES]("/creator-zones")
-- [PLATFORM]("platform")
+- [PLATFORM]("/platform")
 - [EXPERIENCES]("/experiences")
 - [BLOGS]("/blog")
 - [CONTACT]("mailto:info@ourworld.tf")
