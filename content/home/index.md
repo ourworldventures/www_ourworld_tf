@@ -67,7 +67,8 @@ A better world is one where we all have access to endless information and opport
 
 <br>
 
-OurWorld allows you and your community to prosper together! Learn whatever your heart desires. Access any opportunity to earn.
+OurWorld allows you and your community to prosper together! 
+<br>Learn whatever your heart desires. Access any opportunity to earn.
 
 {% end %}
 
