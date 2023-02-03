@@ -56,7 +56,7 @@ A better world is one where we all have access to endless information and opport
 
 <br>
 
-![Image](OW_lp44.png)
+![Image](./images/OW_lp44.png)
 
 ### THE END OF
 
@@ -84,7 +84,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 |||
 
-![Image](./images/OW_lp25.png#large)
+![Image](./images/ow_lp25.png#large)
 
 {% end %}
 
