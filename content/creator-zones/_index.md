@@ -52,7 +52,7 @@ to become the standard of every Creator Zone.
 
 {% row(style="center lean-left" bgColor="#e9fcff") %}
 
-![Image](./images/coworking.png)
+![Image](./images/ow_lp1.png)
 
 |||
 
