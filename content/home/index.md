@@ -10,6 +10,8 @@ extra:
 
 <!-- section 1 (header) -->
 
+{{ space() }}
+
 {% row(style="center" margin="narrow") %}
 
 ### EXPERIENCE
@@ -67,7 +69,7 @@ A better world is one where we all have access to endless information and opport
 
 <br>
 
-OurWorld allows you and your community to prosper together! 
+OurWorld allows you and your community to prosper together!
 <br>Learn whatever your heart desires. Access any opportunity to earn.
 
 {% end %}

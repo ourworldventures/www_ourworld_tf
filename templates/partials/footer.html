@@ -13,9 +13,8 @@
         {{ section.content | safe }}
     {% else %}
         {% set footer_class = config.extra.footer_class | default(value='') %}
-        <div class="{{ footer_class ~ ' -mx-20 pt-20'}}">
-            <img src="{{get_url(path='images/footer_logo.png')}}" alt="">
-            ALL RIGHTS RESERVED 2022
-        </div>
+        <div class="{{ footer_class ~ ' -mx-20'}}">
+            <img src="{{get_url(path='images/footer.png')}}" class="w-60" alt="">
+            
     {% endif %}
 </footer>
