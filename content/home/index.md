@@ -24,7 +24,7 @@ A better world is one where we all have access to endless information and opport
 
 |||
 
-![Image](ow_lp15.jpg)
+![Image](./images/ow_lp15.jpg)
 
 {% end %}
 
@@ -32,7 +32,7 @@ A better world is one where we all have access to endless information and opport
 
 {% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
 
-![Image](OW_lp34.jpg)
+![Image](./images/ow_lp0.png)
 
 |||
 
@@ -56,7 +56,7 @@ A better world is one where we all have access to endless information and opport
 
 <br>
 
-![Image](OWA_lp16.jpg)
+![Image](OW_lp44.png)
 
 ### THE END OF
 
@@ -84,7 +84,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 |||
 
-![Image](OW_lp25.png#large)
+![Image](./images/OW_lp25.png#large)
 
 {% end %}
 
@@ -92,7 +92,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 {% row(style="center" margin="narrow" bgColor="#fdfeea") %}
 
-![Image](OW_lp35.jpg)
+![Image](./images/OW_lp1.jpg)
 
 |||
 
@@ -124,7 +124,7 @@ Soon, access all your OurWorld experiences through your Digital Twin. Communicat
 
 |||
 
-![Image](OW_lp26.jpg)
+![Image](./images/ff.png)
 
 {% end %}
 
