@@ -56,7 +56,7 @@ A better world is one where we all have access to endless information and opport
 
 <br>
 
-![Image](./images/OW_lp44.png)
+![Image](./images/ow_lp44.png)
 
 ### THE END OF
 
