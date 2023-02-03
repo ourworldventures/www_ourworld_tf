@@ -84,7 +84,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 |||
 
-![Image](./images/ow_lp25.png#large)
+![Image](./images/ow_lp25.png)
 
 {% end %}
 
