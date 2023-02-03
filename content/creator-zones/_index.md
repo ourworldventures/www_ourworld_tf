@@ -24,7 +24,7 @@ Creator Zones are set up to allow aspiring entrepreneurs, business people and di
 
 |||
 
-![Image](/images/ow_lp40.jpg)
+![Image](/images/creator.png)
 
 {% end %}
 
@@ -32,7 +32,7 @@ Creator Zones are set up to allow aspiring entrepreneurs, business people and di
 
 {% row(style="center lean-left" bgColor="#c4ffeb") %}
 
-![Image](/images/ow_lp11.png)
+![Image](/images/nature.png)
 
 |||
 
@@ -58,25 +58,11 @@ to become the standard of every Creator Zone.
 
 <br>
 
-### A DEDICATION
-
-## TO LEARNING
-
-<br>
-
-Creator Zones are always integrated with nature.
-This creates a more sustainable environment that
-allows community members to be more
-sustainable. This also promotes greener habits
-to become the standard of every Creator Zone.
-
-{% end %}
-
 {{ space() }}
 
 {% row(style="center lean-left" bgColor="#e9fcff") %}
 
-![Image](/images/ow_lp14.png)
+![Image](/images/coworking.png)
 
 |||
 
@@ -99,7 +85,7 @@ We have created an environment where collaboration and team work lead to the dev
 
 <br>
 
-![Image](/images/ow_lp8.jpg)
+![Image](/images/regenerative.jpg)
 
 <br>
 
@@ -129,7 +115,7 @@ All Creator Zone experiences and technologies are built on top of the world’s 
 
 |||
 
-![Image](/images/ow_lp9.png)
+![Image](/images/p2p.png)
 
 {% end %}
 
