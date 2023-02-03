@@ -24,7 +24,7 @@ Creator Zones are set up to allow aspiring entrepreneurs, business people and di
 
 |||
 
-![Image](/images/creator.png)
+![Image](./images/creator.png)
 
 {% end %}
 
@@ -32,7 +32,7 @@ Creator Zones are set up to allow aspiring entrepreneurs, business people and di
 
 {% row(style="center lean-left" bgColor="#c4ffeb") %}
 
-![Image](/images/nature.png)
+![Image](./images/nature.png)
 
 |||
 
@@ -54,7 +54,7 @@ to become the standard of every Creator Zone.
 
 <br>
 
-![Image](/images/ow_lp12.png)
+![Image](./images/ow_lp12.png)
 
 <br>
 
@@ -62,7 +62,7 @@ to become the standard of every Creator Zone.
 
 {% row(style="center lean-left" bgColor="#e9fcff") %}
 
-![Image](/images/coworking.png)
+![Image](./images/coworking.png)
 
 |||
 
@@ -85,7 +85,7 @@ We have created an environment where collaboration and team work lead to the dev
 
 <br>
 
-![Image](/images/regenerative.jpg)
+![Image](./images/regenerative.jpg)
 
 <br>
 
@@ -115,7 +115,7 @@ All Creator Zone experiences and technologies are built on top of the world’s 
 
 |||
 
-![Image](/images/p2p.png)
+![Image](./images/p2p.png)
 
 {% end %}
 
