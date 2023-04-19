@@ -1,9 +1,15 @@
-# OurWorld Powered by ThreeFold
+# Welcome to Ourworld Website Repository
 
-The official website of OurWorld Powered by ThreeFold
+- Website Name: Ourworld
+- Brief Description: This is the official website of Ourworld.
+Last Updated: March 2023
 
-[www.ourworld.tf](https://ourworld.tf/)
+- Website URL: https://ourworld.tf/
 
-## Contribution
+- For any suggestions or improvement ideas please 
+Create an issue on: https://github.com/threefoldfoundation/www_ourworld_tf/issues
 
-Feel free to [create a new issue](https://github.com/threefoldfoundation/www_ourworld_tf/issues) to report an error on the website, or if you have any suggestions on website improvements. 
+
+
+
+
