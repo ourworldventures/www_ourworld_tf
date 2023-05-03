@@ -12,4 +12,3 @@ extra:
 - [PLATFORM]("/platform")
 - [EXPERIENCES]("/experiences")
 - [BLOGS]("/blog")
-- [CONTACT]("mailto:info@ourworld.tf")

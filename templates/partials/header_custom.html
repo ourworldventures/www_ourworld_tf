@@ -135,6 +135,9 @@
     {% endif %}  
 {% endif %}
 {% endfor %}
+<a href="mailto:info@ourworld.tf" target="_blank" class="text-lg uppercase leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+    Contact
+</a>
 </nav>
 
 
@@ -209,13 +212,16 @@
                     {% set section = get_section(path="footer/_index.md")%}
                     {% set logoPath = section.extra.logoPath %}
                     <div class="mx-8 mt-8">
-                        <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
+                        {# <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
                           <img class="w-48 h-auto" src="{{logoPath}}" alt="Company name" />
                           <p class="text-gray-500 text-base leading-6 ">
                             {{section.description}}
                           </p>
-                      </div>
+                      </div> #}
                     {% endif %}
+                    <a href="mailto:info@ourworld.tf" target="_blank" class="text-lg uppercase leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                        Contact
+                    </a>
                     </nav>                    
                 </div>
             
