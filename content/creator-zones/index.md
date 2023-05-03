@@ -10,7 +10,12 @@ extra:
 
 <!-- section 1 (header) -->
 
-{{ space() }}
+<div class="container mx-auto">
+
+
+<br>
+
+<br>
 
 {% row(style="center lean-right") %}
 
@@ -53,11 +58,8 @@ to become the standard of every Creator Zone.
 
 {{ space() }}
 
-{% row(style="center lean-left" bgColor="#e9fcff") %}
+{% row(style="center lean-left") %}
 
-![Image](images/ow_lp1.png)
-
-|||
 
 ### BUILT BY
 
@@ -70,6 +72,11 @@ Co-living and coworking in Creator Zones allow members to create effective and i
 <br>
 
 We have created an environment where collaboration and team work lead to the developoment of advanced technologies that focus on endless creating opportunities.
+
+|||
+
+![Image](images/ow_lp1.png)
+
 {% end %}
 
 {{ space() }}
@@ -112,6 +119,10 @@ All Creator Zone experiences and technologies are built on top of the world’s 
 
 {% end %}
 
+
+</div>
+
+
 {{ space() }}
 
 {% row(style="center narrow invert-color" bgColor="#4ec48f") %}
@@ -124,10 +135,10 @@ Interested in partnering up? Or just wanna say hi?
 
 Drop us a message!
 
-<button>[Email](mailto:info@ourverse.tf)</button>
+<a class="text-white" href="mailto:info@ourverse.tf" target="_blanck"><button >Email</button></a>
 
 <br>
 
-OUR**WORLD**
+#### OUR**WORLD**
 
 {% end %}

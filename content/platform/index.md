@@ -10,6 +10,12 @@ extra:
 
 <!-- section 1 (header) -->
 
+<div class="container mx-auto">
+
+
+<br>
+
+<br>
 
 {% row(style="center narrow") %}
 
@@ -104,6 +110,9 @@ OurWorld exists to speed up the transition towards inclusivity. We create thrivi
 
 {% end %}
 
+
+</div>
+
 {{ space() }}
 
 {% row(style="center narrow invert-color" bgColor="#4ec48f") %}
@@ -116,10 +125,10 @@ Interested in partnering up? Or just wanna say hi?
 
 Drop us a message!
 
-<button>[Email](mailto:info@ourverse.tf)</button>
+<a class="text-white" href="mailto:info@ourverse.tf" target="_blanck"><button >Email</button></a>
 
 <br>
 
-OUR**WORLD**
+#### OUR**WORLD**
 
 {% end %}

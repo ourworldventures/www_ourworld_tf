@@ -10,7 +10,12 @@ extra:
 
 <!-- section 1 (header) -->
 
-{{ space() }}
+<div class="container mx-auto">
+
+
+<br>
+
+<br>
 
 {% row(style="center" margin="narrow") %}
 
@@ -22,13 +27,15 @@ extra:
 
 A better world is one where we all have access to endless information and opportunities. OurWorld exists to achieve that dream.
 
-<button>[EXPLORE]("/platform")</button>
+<button>[EXPLORE](/platform)</button>
 
 |||
 
 ![Image](./images/abundance.png)
 
 {% end %}
+
+<!-- section 2  -->
 
 {{ space() }}
 
@@ -51,11 +58,13 @@ A better world is one where we all have access to endless information and opport
 
 {{ space() }}
 
+<!-- section 3  -->
+
 {% row(style="center narrow" margin="narrow") %}
 
 <br>
 
-![Image](./images/ow_lp44.png#lg)
+![Image](./images/ow_lp44.png)
 
 <br>
 <br>
@@ -71,6 +80,8 @@ OurWorld allows you and your community to prosper together!
 
 {% end %}
 
+<!-- section 4  -->
+
 {{ space() }}
 
 {% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
@@ -83,7 +94,7 @@ OurWorld allows you and your community to prosper together!
 
 OurWorld consists of a decentralized internet network as the foundation. This base enables life-changing experiences and capabilties to be openly and freely available to everyone.
 
-<button>[LEARN MORE]("/platform")</button>
+<button>[LEARN MORE](/platform)</button>
 
 |||
 
@@ -93,7 +104,9 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 {{ space() }}
 
-{% row(style="center" margin="narrow" bgColor="#fdfeea") %}
+
+
+{% row(style="center" margin="narrow") %}
 
 ![Image](./images/ow_lp1.jpg)
 
@@ -128,6 +141,8 @@ Soon, access all your OurWorld experiences through your Digital Twin. Communicat
 
 {% end %}
 
+</div>
+
 {% row(style="center narrow invert-color" margin="narrow" bgColor="#4ec48f") %}
 
 ## WANNA GET **INVOLVED?**
@@ -138,10 +153,10 @@ Interested in partnering up? Or just wanna say hi?
 
 Drop us a message!
 
-<button>[Email](mailto:info@ourverse.tf)</button>
+<a class="text-white" href="mailto:info@ourverse.tf" target="_blanck"><button >Email</button></a>
 
 <br>
 
-OUR**WORLD**
+#### OUR**WORLD**
 
 {% end %}
