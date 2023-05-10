@@ -27,7 +27,7 @@ extra:
 
 Creator Zones are set up to allow aspiring entrepreneurs, business people and digital nomads to work together on projects and experiences that bring a positive impact to the society.
 
-<button>[EXPLORE]("/")</button>
+<button>[EXPLORE]("/experiences/")</button>
 
 |||
 
@@ -111,7 +111,7 @@ We work with the local population to allow them to help and earn from the Creato
 
 All Creator Zone experiences and technologies are built on top of the world’s largest decentralized and peer-to-peer network, the ThreeFold Grid. This allows endless security and scalability for all projects whilst offering limitless opportunities.
 
-<button>[LEARN MORE]("/")</button>
+<button>[LEARN MORE]("https://library.threefold.me/info/manual/#/threefold__peer2peer")</button>
 
 |||
 
