@@ -1,5 +1,4 @@
 /*! purgecss start ignore */
-@import "nav.css";
 @import "code.css";
 /*! purgecss end ignore */
 
@@ -8,18 +7,38 @@
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
 }
 
+@font-face {
+    font-family: "CercoDEMO";
+    font-weight: 500;
+    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Medium.otf") format("opentype");
+    src: url("../fonts/CercoDEMO-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "CercoDEMO";
+    font-weight: 600;
+    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Bold.otf") format("opentype");
+    src: url("../fonts/CercoDEMO-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "CercoDEMO";
+    font-weight: 400;
+    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Light.otf") format("opentype");
+    src: url("../fonts/CercoDEMO-Light.otf") format("opentype");
+}
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "CercoDEMO", sans-serif;
 }
 
 a {
-  font-family: "Lato", sans-serif;
+  font-family: "CercoDEMO", sans-serif;
 }
 
 .bg-semi-white {
@@ -32,34 +51,15 @@ img[src*="#mx-auto"] {
 }
 
 img[src*="#small"] {
-  width: 60px;
+  width: 68px;
 }
 
-
-img[src*="#padded"] {
-    max-width: 80%;
-    margin: auto;
+img[src*="#md"] {
+    width: 300px;
 }
 
 img[src*="#medium"] {
-  width: 400px;
-  margin: auto;
-}
-
-img[src*="#mobile"] {
-    display: none;
-}
-
-@media (max-width: 440px) {
-    img[src*="#mobile"] {
-        display: block;
-    }
-}
-
-@media (max-width: 440px) {
-    img[src*="#desktop"] {
-        display: none;
-    }
+    width: 400px;
 }
 
 img[src*="#logo"] {
@@ -83,67 +83,58 @@ img[src*="#tft_img"] {
 
 @layer components {
   h1 {
-    @apply text-5xl lg:text-8xl font-normal leading-none;
+    @apply text-4xl md:text-5xl lg:text-6xl leading-none font-normal;
   }
   h1 strong {
-    @apply font-semibold;
+    @apply font-medium;
   }
   h2 {
-    @apply text-2xl md:text-4xl lg:text-5xl font-semibold leading-none;
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-normal leading-none;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl lg:text-5xl font-medium leading-snug;
+    @apply text-xl md:text-2xl lg:text-3xl font-light;
   }
   h3 strong {
-    @apply font-semibold;
+    @apply font-medium;
   }
   h4 {
-    @apply text-xl lg:text-4xl font-light tracking-wider leading-snug;
+    @apply text-xl lg:text-2xl font-normal;
   }
   h5 {
-    @apply text-xl lg:text-2xl font-light;
+    @apply text-xl lg:text-xl font-normal;
   }
   h6 {
-    @apply text-md not-italic font-normal my-1;
+    @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-sm lg:text-md font-normal tracking-wide leading-normal;
-    font-family: "Lato", sans-serif;
+    @apply text-lg lg:text-xl leading-tight tracking-normal font-normal;
+    font-family: "CercoDEMO", sans-serif;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
   }
   li {
-    @apply text-base lg:text-base font-normal;
+    @apply text-lg lg:text-xl font-normal;
   }
   li li {
     @apply text-sm lg:text-sm font-light;
   }
   button {
     @apply inline-block
-    font-sans
-    text-sm
-    lg:text-xl
-    px-6
-    lg:px-16
+    text-base
+    lg:text-lg
+    px-12
     py-1
     mr-5
     my-10
     border-2
-    rounded-3xl
     shadow
-    font-bold
     capitalize;
   }
 }
-
-button.dark {
-  background-color: #1a1a1a;
-}
-
 
 button:hover :is(:where(a)) {
   color: #c6f8ff;
@@ -154,7 +145,32 @@ button :is(:where(p)) {
   font-weight: 400;
 }
 
-/*
+header .freeflow {
+    background-color: transparent;
+    position: absolute;
+}
+
+footer .freeflow {
+    width: 100vw;
+    background-color: #eae8e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+footer .freeflow img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+header .freeflow div {
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
 button {
   background-color: #1a1a1a;
   border-radius: 20px;
@@ -162,7 +178,14 @@ button {
   box-shadow: none;
   font-size: 20px;
 }
-*/
+
+button {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+  }
 
 button a {
   color: white;

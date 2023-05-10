@@ -3,31 +3,18 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
 
-{%- set section = get_section(path="footer/_index.md") %}
-{%- set logoPath = section.extra.logoPath %}
+{%- set section = get_section(path="_index.md") %}
 
-<html>
-    <head /><body>
-        <div class="mt-12 border-t border-gray-200 pt-8"></div>
-        <footer class="bg-white">
-          <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <div class="xl:flex xl:gap-4">
-              <div class="space-y-8 lg:max-w-sm xl:max-w-sm lg:mr-8 lg:mb-8 xl:col-span-1">
-                <img class="w-20 h-auto sm:w-15" src="{{logoPath}}" alt="Company name" />
-                <p class="text-gray-500 text-base leading-6 ">
-                  {{section.description}}
-                </p>
-                {% include "partials/socialLinks.html" %}
-            </div>
+{% set subsections_str = section.subsections | join(sep=" ") %}
 
-            <div class="mt-6 lg:mt-0 w-full px-8 sm:px-12 md:px-16 lg:px-20">
-                {{ section.content | safe }}
-            </div>
-              
-              </div>
-            </div>
-          </div>
-        </footer>
-        </body>
-        </html>
-        
+<footer class="bottom-0 mx-20">
+    {% if "footer/_index.md" in subsections_str %}
+        {%- set section = get_section(path="footer/_index.md") %}
+        {{ section.content | safe }}
+    {% else %}
+        {% set footer_class = config.extra.footer_class | default(value='') %}
+        <div class="{{ footer_class ~ ' -mx-20'}}">
+            <img src="{{get_url(path='images/footer.png')}}" class="w-60" alt="">
+            
+    {% endif %}
+</footer>

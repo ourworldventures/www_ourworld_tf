@@ -4,8 +4,11 @@ description: "NEAR is on a mission to empower everyone to take back control of t
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPath: "/images/ow_lp_logo.png"
+  logoPath: "/images/OW_Logo.png"
   imgPath: ""
 ---
 
-- [PLAN A MEETING]("https://calendly.com/tf_liquidity_pool")
+- [CREATOR ZONES]("/creator-zones")
+- [PLATFORM]("/platform")
+- [EXPERIENCES]("/experiences")
+- [BLOGS]("/blog")
