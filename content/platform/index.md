@@ -28,7 +28,7 @@ extra:
 
 Explore the four layers of a decentalized and peer-to-peer future where no one is left behind.
 
-<button>[EXPLORE]("/")</button>
+<button>[EXPLORE]("https://threefold.io")</button>
 
 {% end %}
 
@@ -42,7 +42,7 @@ Explore the four layers of a decentalized and peer-to-peer future where no one i
 
 Creator Zones are dedicated to building super-sustainable coworking and co-living communities where entrepreneurs, digital nomads and residents collaborate to build beautiful experiences that positively impact the lives of millions.
 
-<button>[KNOW MORE]("https://threefold.io")</button>
+<button>[KNOW MORE]("https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_home")</button>
 
 |||
 
