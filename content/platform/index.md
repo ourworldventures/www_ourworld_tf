@@ -28,7 +28,7 @@ extra:
 
 Explore the four layers of a decentalized and peer-to-peer future where no one is left behind.
 
-<button>[EXPLORE]("https://threefold.io")</button>
+<button>[EXPLORE](https://threefold.io)</button>
 
 {% end %}
 
@@ -42,7 +42,7 @@ Explore the four layers of a decentalized and peer-to-peer future where no one i
 
 OurWorld is backed by the world's biggest decentralized internet network called The Threefold Grid. It is an open-source Internet infrastructure that leverages autonomous cloud and high-performance, permissionless blockchain technology. Learn about the grid and what makes it revolutionary.
 
-<button>[KNOW MORE]("https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_home")</button>
+<button>[KNOW MORE](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_home)</button>
 
 |||
 
@@ -66,7 +66,7 @@ OurWorld is backed by the world's biggest decentralized internet network called 
 
 Creator Zones are dedicated to building super-sustainable coworking and co-living communities where entrepreneurs, digital nomads and residents collaborate to build beautiful experiences that positively impact the lives of millions.
 
-<button>[KNOW MORE](/creator-zones)</button>
+<button>[KNOW MORE]("/creator-zones")</button>
 
 {% end %}
 
@@ -106,7 +106,7 @@ OurWorld consists of a decentralized internet network as the foundation. This ba
 
 OurWorld exists to speed up the transition towards inclusivity. We create thriving experiences and ecosystems which enable every human being to learn, partake and succeed.
 
-<button>[EXPERIENCES](/experiences)</button>
+<button>[EXPERIENCES]("/experiences")</button>
 
 {% end %}
 
