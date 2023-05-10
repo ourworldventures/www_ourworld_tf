@@ -111,7 +111,7 @@ We work with the local population to allow them to help and earn from the Creato
 
 All Creator Zone experiences and technologies are built on top of the world’s largest decentralized and peer-to-peer network, the ThreeFold Grid. This allows endless security and scalability for all projects whilst offering limitless opportunities.
 
-<button>[LEARN MORE]("https://library.threefold.me/info/manual/#/threefold__peer2peer")</button>
+<a class="text-white" href="https://library.threefold.me/info/manual/#/threefold__peer2peer" target="_blanck"><button >LEARN MORE</button></a>
 
 |||
 
