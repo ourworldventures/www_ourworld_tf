@@ -1,24 +1,24 @@
-name: Ourworld.tf
-on: 
+name: ourworld.tf
+on:
   push:
-    branch: [ development ]
+    branches: [ master ]
 
 jobs:
   job_one:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: pushing latest change on www.ourworld.tf
+    - name: pushing latest change on ourworld.tf
       uses: appleboy/ssh-action@master
       with:
-        host: www.ourworld.tf
+        host: ourworld.tf
         username: webuser
         key: ${{ secrets.TF_SECRET }}
         port: 34022
         script: |
           cd websites/www_ourworld_tf/
           git log -1
+          git restore .
           git pull
-          bash build.sh
-
-          
+          sed -i "s/https:\/\/www2.ourworld.tf/https:\/\/ourworld.tf/g" config.toml
+          ./build.sh
