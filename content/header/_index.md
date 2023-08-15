@@ -1,6 +1,6 @@
 ---
 title: "Header"
-description: "NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us."
+description: ""
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
@@ -8,7 +8,4 @@ extra:
   imgPath: ""
 ---
 
-- [CREATOR ZONES]("/creator-zones")
-- [PLATFORM]("/platform")
-- [EXPERIENCES]("/experiences")
-- [BLOGS]("/blog")
+- [VENTURES]("/ventures")
