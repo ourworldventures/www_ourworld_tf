@@ -9,7 +9,7 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/horizon.jpeg" bgStyle="full") %} 
+{% row(style="center narrow" margin="header" bgPath="img/about.jpeg" bgStyle="full") %} 
 
 ## About
  
@@ -35,11 +35,15 @@ Our co-founders also have experience running [Incubaid](https://incubaid.com), a
 
 |||
 
+![Image](./img/threefold.png)
+
 {% end %}
 
 <!-- section 3 -->
 
 {% row(style="center lean-right") %}
+
+![Image](./img/president.png)
 
 |||
 
@@ -59,13 +63,15 @@ We have signed an agreement with the government of Zanzibar for the implementati
 
 {% row(style="center lean-right") %}
 
-We have also completed all necessary preparations for the launch of our digital twin, the freeflow twin, which can be viewed on the website freeflow.life. This venture is ready to launch and is eagerly anticipated by the community.
+We have also completed all necessary preparations for the launch of our digital twin, the freeflow twin, which can be viewed on the website [freeflow.life](https://freeflow.life). This venture is ready to launch and is eagerly anticipated by the community.
 
 <br/>
 
 There are multiple ventures waiting to be born as more funding comes in to use our technology and provide value for large communities.
 
 |||
+
+![Image](./img/freeflow.png)
 
 {% end %}
 
