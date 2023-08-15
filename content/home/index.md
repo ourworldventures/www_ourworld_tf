@@ -13,17 +13,19 @@ weight: 1
 
 ## OurWorld
  
-### A Platform to enable self-sovereignty.
+### A Platform to Enable Self-Sovereignty.
 
-The sun is rising on a new way forward. Together we are creating a multi-faceted platform to support and empower startups aspiring to harness the potential of emerging technology while putting the planet and people first.
+Together we are creating a multi-faceted platform to support and empower startups aspiring to harness the potential of emerging technology while putting the planet and people first. The sun is rising on a new way forward.
 
-<button>[Our Ventures](#ventures)</button>
+<button>[Our Ventures](/ventures)</button>
 
 {% end %}
 
 <!-- section 2  -->
 
-{% row(style="center" bgColor="#fffca8") %}
+{% row(style="center" bgColor="#ffffff") %}
+
+![Image](./img/platforms_wide.png)
 
 ## What We Provide
 
@@ -31,7 +33,7 @@ The sun is rising on a new way forward. Together we are creating a multi-faceted
 
 <!-- section 2  -->
 
-{% row(style="center" bgColor="#fffca8") %}
+{% row(style="center" bgColor="#ffffff") %}
 
 ### Funding Platform
 
@@ -65,7 +67,9 @@ Create a sovereign and efficient set of platforms for financial, educational, an
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
+{% row(style="center" margin="narrow" bgColor="#ffffff") %}
+
+![Image](./img/values.png)
 
 ## The Foundation of Every Venture
 
@@ -73,7 +77,7 @@ Create a sovereign and efficient set of platforms for financial, educational, an
 
 <!-- section 4  -->
 
-{% row(style="center" margin="narrow" bgColor="#c4ffeb") %}
+{% row(style="center" margin="narrow" bgColor="#ffffff") %}
 
 ### Planet First
 
@@ -115,7 +119,7 @@ Complexity is killing progress.
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#fffed6") %}
+{% row(style="center" margin="narrow" bgColor="#ffffff") %}
 
 ## Our Journey
 
@@ -123,7 +127,7 @@ Complexity is killing progress.
 
 <!-- section 3  -->
 
-{% row(style="center" margin="narrow" bgColor="#fffed6") %}
+{% row(style="center" margin="narrow" bgColor="#ffffff") %}
 
 ### Phase One
 

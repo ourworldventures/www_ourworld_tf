@@ -8,4 +8,5 @@ extra:
   imgPath: ""
 ---
 
+- [ABOUT]("/about")
 - [VENTURES]("/ventures")

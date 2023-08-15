@@ -44,9 +44,7 @@ extra:
 
 ###### [Main Community](https://t.me/threefold)
 
-###### [Farming Community](https://t.me/threefoldfarmers)
-
-###### [Grid User Community](https://t.me/threefoldtesting)
+###### [Manual](https://manual.grid.tf)
 
 ###### [Forum](https://forum.threefold.io/)
 
