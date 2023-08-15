@@ -13,7 +13,7 @@ weight: 1
 
 ## OurWorld
  
-### A Platform to enable self-sovereignty
+### A Platform to enable self-sovereignty.
 
 The sun is rising on a new way forward. Together we are creating a multi-faceted platform to support and empower startups aspiring to harness the potential of emerging technology while putting the planet and people first.
 
