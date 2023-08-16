@@ -315,6 +315,10 @@ header {
   background-repeat: no-repeat;
 }
 
+a:hover{
+  color: #5e5b59;
+}
+
 .banner:hover {
   background: #4b3a92;
 }

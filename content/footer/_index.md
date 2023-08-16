@@ -10,7 +10,7 @@ extra:
 
 {% row(style="lean") %}
 
-##### LEARN
+##### **LEARN**
 
 <br>
 
@@ -24,7 +24,7 @@ extra:
 
 |||
 
-##### THE VENTURES
+##### **THE VENTURES**
 
 <br>
 
@@ -38,7 +38,7 @@ extra:
 
 |||
 
-##### BUILT ON THREEFOLD
+##### **BUILT ON THREEFOLD**
 
 <br>
 

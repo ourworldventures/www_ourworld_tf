@@ -9,11 +9,13 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/horizon.jpeg" bgStyle="full") %} 
+{% row(style="center" margin="tight" bgPath="img/horizon.jpeg" bgStyle="full") %} 
 
-## OurWorld
+# OurWorld
  
 ### A Platform to Enable Self-Sovereignty.
+
+<br>
 
 Together we are creating a multi-faceted platform to support and empower startups aspiring to harness the potential of emerging technology while putting the planet and people first. The sun is rising on a new way forward.
 
@@ -21,21 +23,26 @@ Together we are creating a multi-faceted platform to support and empower startup
 
 {% end %}
 
+<div class="container mx-auto">
+
+
+
 <!-- section 2  -->
 
-{% row(style="center" bgColor="#ffffff") %}
+{% row(style="center" padding="top") %}
 
-![Image](./img/platforms_wide.png)
+![Image](./img/platforms_wide.png#large#mx-auto)
 
 ## What We Provide
 
 {% end %}
 
-<!-- section 2  -->
+<br>
 
-{% row(style="center" bgColor="#ffffff") %}
 
-### Funding Platform
+{% row(style="center" padding="none") %}
+
+### **Funding Platform**
 
 <br/>
 
@@ -43,15 +50,18 @@ Funding for potentially hundreds of like-minded projects, with a primary focus o
 
 |||
 
-### Technological Platform
+### **Technological Platform**
 
 <br/>
 
 A technological platform that enables everyone to be self-sovereign from a digital perspective.
 
-|||
+{% end %}
 
-### Legal & Financial Independence Platform
+
+{% row(style="center" padding="both") %}
+
+### **Legal & Financial Independence Platform**
 
 <br/>
 
@@ -59,7 +69,7 @@ Supplement technological sovereignty with a system that offers legal and financi
 
 |||
 
-### Life Supporting Platform
+### **Life Supporting Platform**
 
 <br/>
 
@@ -67,17 +77,21 @@ Create a sovereign and efficient set of platforms for financial, educational, an
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#ffffff") %}
 
-![Image](./img/values.png)
+<!-- section 3  -->
+
+
+{% row(style="center" margin="narrow" padding="top") %}
+
+![Image](./img/values.png#large#mx-auto)
 
 ## The Foundation of Every Venture
 
 {% end %}
 
-<!-- section 4  -->
+<br>
 
-{% row(style="center" margin="narrow" bgColor="#ffffff") %}
+{% row(style="center" margin="narrow" padding="bottom") %}
 
 ### Planet First
 
@@ -119,21 +133,26 @@ Complexity is killing progress.
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#ffffff") %}
+
+
+<!-- section 4  -->
+
+
+{% row(style="center" margin="narrow" padding="top") %}
 
 ## Our Journey
 
 {% end %}
 
-<!-- section 3  -->
+<br>
 
-{% row(style="center" margin="narrow" bgColor="#ffffff") %}
+{% row(style="center" padding="bottom") %}
 
 ### Phase One
 
-![Image](./img/past.png)
+![Image](./img/past.png#mx-auto)
 
-#### Creation of Core Tech
+#### **Creation of Core Tech**
 
 <br/>
 
@@ -153,7 +172,7 @@ Built decentralized, autonomous, edge Internet technology.
 
 ![Image](./img/past.png)
 
-#### Expansion & Proof
+#### **Expansion & Proof**
 
 <br/>
 
@@ -173,7 +192,7 @@ Core technology proven.
 
 ![Image](./img/current.png)
 
-#### Launch Our Ventures
+#### **Launch Our Ventures**
 
 <br/>
 
@@ -197,7 +216,7 @@ Millions of people using services and products of our ventures.
 
 ![Image](./img/future.png)
 
-#### Sovereignty For All
+#### **Sovereignty For All**
 
 <br/>
 
@@ -212,3 +231,5 @@ Impacting +100 million people.
 The startups in the venture creator are now community-owned and our investors received a good exit.
 
 {% end %}
+
+</div>
