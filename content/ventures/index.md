@@ -9,7 +9,19 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/roots.jpeg" bgStyle="full" id="ventures") %} 
+{% row(style="center narrow" margin="header" bgPath="img/ventures.jpeg" bgStyle="full" id="ventures") %} 
+
+## Ventures
+ 
+### A Growing Ecosystem Enabling Self-Sovereignty
+
+These are the first OurWorld Ventures, connected by a strong set of values and a desire to bring forward a new era of digital sovereignty and empowerment.
+
+{% end %}
+
+<!-- section 1 -->
+
+{% row(style="center narrow" margin="header" bgPath="img/threefold.jpeg" bgStyle="full" id="ventures") %} 
 
 ## ThreeFold Internet
  
@@ -45,12 +57,24 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/explore.jpeg" bgStyle="full") %} 
+{% row(style="center narrow" margin="header" bgPath="img/ourverse.jpeg" bgStyle="full") %} 
 
 ## OurVerse
  
 ### A New Internet System for Search, Knowledge, & More.
 
 <button>[Website](https://ourverse.tf)</button>
+
+{% end %}
+
+<!-- section 1 -->
+
+{% row(style="center narrow" margin="header" bgPath="img/phone.jpeg" bgStyle="full") %} 
+
+## OurPhone
+ 
+### A Decentralized, Secure, & Sovereign Smartphone.
+
+<button>[Website](https://ourphone.tf/)</button>
 
 {% end %}

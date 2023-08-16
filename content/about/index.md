@@ -31,7 +31,7 @@ This journey began with the creation of a new Internet infrastructure layer, a p
 
 <br/>
 
-Our co-founders also have experience running [Incubaid](https://incubaid.com), a successful incubator focused primarily on helping to change our planet for the better through technology that supports decentralization. Over 19 years, Incubaid did seven exits totaling more than $500 million.
+Our co-founders also have experience running [Incubaid](https://incubaid.com), a successful incubator focused primarily on helping to change our planet for the better through technology that supports decentralization. Over 19 years, Incubaid did seven strong exits.
 
 |||
 
@@ -81,7 +81,7 @@ There are multiple ventures waiting to be born as more funding comes in to use o
 
 ## We Are an Experienced Team
 
-### With More Than $500M in Exits
+### With Seven Exits Over Two Decades
 
 ![Image](./img/exits.png)
 
