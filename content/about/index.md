@@ -9,19 +9,25 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/about.jpeg" bgStyle="full") %} 
+{% row(style="center" margin="tight" bgPath="img/about.jpeg" bgStyle="full") %} 
 
-## About
+# About
  
 ### What & Who We Are.
+
+<br>
 
 A venture creator is a company or organization that creates and develops new businesses, typically in the form of startups. Support includes providing funding, resources, and mentorship.
 
 {% end %}
 
+
+
+<div class="container mx-auto">
+
 <!-- section 2 -->
 
-{% row(style="center lean-right") %}
+{% row(style="" reverse="rightreserve") %}
 
 The OurWorld Venture Creator is backed by the ThreeFold Team – with the goal of not just doing business, but doing good for the world while we’re at it. We are an international team of experts and passionate believers in a better world who choose to act to make a difference.
 
@@ -35,15 +41,17 @@ Our co-founders also have experience running [Incubaid](https://incubaid.com), a
 
 |||
 
-![Image](./img/threefold.png)
+![Image](./img/threefold.png#medium#mx-auto)
 
 {% end %}
 
+
+
 <!-- section 3 -->
 
-{% row(style="center lean-right") %}
+{% row(style="") %}
 
-![Image](./img/president.png)
+![Image](./img/president.png#mx-auto)
 
 |||
 
@@ -59,9 +67,11 @@ We have signed an agreement with the government of Zanzibar for the implementati
 
 {% end %}
 
+
+
 <!-- section 4 -->
 
-{% row(style="center lean-right") %}
+{% row(style="" reverse="rightreserve") %}
 
 We have also completed all necessary preparations for the launch of our digital twin, the freeflow twin, which can be viewed on the website [freeflow.life](https://freeflow.life). This venture is ready to launch and is eagerly anticipated by the community.
 
@@ -75,13 +85,21 @@ There are multiple ventures waiting to be born as more funding comes in to use o
 
 {% end %}
 
+
+</div>
+
+
 <!-- section 5 -->
 
 {% row(style="center narrow" margin="header" bgColor="#007fc7") %} 
 
+<div class="text-white">
+
 ## We Are an Experienced Team
 
 ### With Seven Exits Over Two Decades
+
+</div>
 
 ![Image](./img/exits.png)
 
