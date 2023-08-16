@@ -9,13 +9,21 @@ weight: 1
 
 <!-- section 1 -->
 
-{% row(style="center narrow" margin="header" bgPath="img/ventures.jpeg" bgStyle="full" id="ventures") %} 
+{% row(style="center" margin="tight" bgPath="img/ventures.jpeg" bgStyle="full" id="ventures") %} 
+
+
+<div class="bg_color py-4 px-4 rounded-md">
 
 ## Ventures
  
 ### A Growing Ecosystem Enabling Self-Sovereignty
 
+<br>
+
 These are the first OurWorld Ventures, connected by a strong set of values and a desire to bring forward a new era of digital sovereignty and empowerment.
+
+
+</div>
 
 {% end %}
 
@@ -78,3 +86,11 @@ These are the first OurWorld Ventures, connected by a strong set of values and a
 <button>[Website](https://ourphone.tf/)</button>
 
 {% end %}
+
+<style>
+
+    .bg_color{
+        background-color: rgb(233 233 233 / 50%);
+    }
+
+    </style>
