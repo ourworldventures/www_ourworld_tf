@@ -10,4 +10,6 @@ extra:
 
 - [ABOUT]("/about")
 - [VENTURES]("/ventures")
-- [INFO]("https://info.ourworld.tf")
+- [BLOG]("/blog")
+- [NEWS]("/newsroom")
+- [PEOPLE]("/people")
