@@ -1,7 +1,7 @@
 {% extends "_default/base.html" %}
-<!-- blog template
-the template for displaying the blog page.
-consists of a featured blog row, 
+<!-- News template
+the template for displaying the news page.
+consists of a featured news row, 
 a paginated list of posts (sorted by date), 
 and a side nav for category and featured post navigation
 -->
@@ -11,7 +11,7 @@ and a side nav for category and featured post navigation
 <main>
 
     <!--sets global featured variable as the most recent post with the isFeatured tag-->
-    {%- set section = get_section(path="blog/_index.md") %}
+    {%- set section = get_section(path="newsroom/_index.md") %}
     {% for page in section.pages %}
     {% if page.extra.isFeatured %}
         {%- set_global featured = page %}
@@ -22,11 +22,11 @@ and a side nav for category and featured post navigation
     {% endif %}
     {% endfor %}
     
-    {% include "partials/featuredBlog.html" %}
+    {% include "partials/featuredNews.html" %}
 
     <div class="flex flex-col md:flex-row container mx-auto">
-        {% include "partials/blogPosts.html" %}
-        {% include "partials/blogSidebar.html" %}
+        {% include "partials/newsPosts.html" %}
+        {% include "partials/newsSidebar.html" %}
     </div>
  </main> 
  
