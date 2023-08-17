@@ -26,7 +26,7 @@ extra:
 
 |||
 
-[Restore the Commons](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/hehw4is7pvg8gbcc)
+[Restore the Commons](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/58shuiksemuaeiyb)
 <br>
 <p class="text-sm">Read our methodology</p>
 
