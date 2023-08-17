@@ -91,7 +91,7 @@ There are multiple ventures waiting to be born as more funding comes in to use o
 
 <!-- section 5 -->
 
-{% row(style="center narrow" margin="header" bgColor="#007fc7") %} 
+{% row(style="center" margin="header" padding="top" bgColor="#007fc7") %} 
 
 <div class="text-white">
 

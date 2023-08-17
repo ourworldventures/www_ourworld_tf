@@ -14,13 +14,15 @@ extra:
 
 <br>
 
-###### [Litepaper](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/84eh676k7a9pcw36)
+<a onclick="window.open('https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/84eh676k7a9pcw36', '_blank')"><h6>Litepaper</h6></a>
 
-###### [Fact Sheet](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/hehw4is7pvg8gbcc)
+<a onclick="window.open('https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/hehw4is7pvg8gbcc', '_blank')"><h6>Fact Shee</h6></a>
 
-###### [Restore the Commons](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/58shuiksemuaeiyb)
+<a onclick="window.open('https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/58shuiksemuaeiyb', '_blank')"><h6>estore the Commons</h6></a>
 
-###### [Project Details](https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/tvqf5pq4nvuukqgx)
+<a onclick="window.open('https://threefold.docsend.com/view/b6wmefr47r2qsjcc/d/tvqf5pq4nvuukqgx', '_blank')"><h6>Project Details</h6></a>
+
+
 
 |||
 
@@ -28,15 +30,16 @@ extra:
 
 <br>
 
-###### [ThreeFold](https://threefold.io)
+<a onclick="window.open('https://threefold.io', '_blank')"><h6>ThreeFold</h6></a>
 
-###### [OurWorld Free Zone](https://freezone.ourworld.tf/)
+<a onclick="window.open('https://freezone.ourworld.tf/', '_blank')"><h6>OurWorld Free Zone</h6></a>
 
-###### [Sikana](https://sikana.tv/)
+<a onclick="window.open('https://sikana.tv/)', '_blank')"><h6>Sikana</h6></a>
 
-###### [OurVerse](https://ourverse.tf/)
+<a onclick="window.open('https://ourverse.tf/', '_blank')"><h6>OurVerse</h6></a>
 
-###### [OurPhone](https://ourphone.tf/)
+<a onclick="window.open('https://ourphone.tf/', '_blank')"><h6>OurPhone</h6></a>
+
 
 |||
 
@@ -44,10 +47,19 @@ extra:
 
 <br>
 
-###### [Main Community](https://t.me/threefold)
+<a onclick="window.open('https://t.me/threefold', '_blank')"><h6>Main Community</h6></a>
 
-###### [Manual](https://manual.grid.tf)
+<a onclick="window.open('https://manual.grid.tf', '_blank')"><h6>Manual</h6></a>
 
-###### [Forum](https://forum.threefold.io/)
+<a onclick="window.open('https://forum.threefold.io/', '_blank')"><h6>Forum</h6></a>
+
 
 {% end %}
+
+<style>
+  a {
+cursor: pointer;
+
+  }
+  
+  </style>
