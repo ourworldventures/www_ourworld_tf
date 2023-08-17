@@ -1,0 +1,47 @@
+{% set cta_path = 'roadmap/cta/index.md' %}
+{% set cta = get_page(path=cta_path) %}
+
+<style>
+    .margin-bottom-large p {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: open sans, sans-serif;
+        color: #fff;
+        font-size: .8em;
+        text-align: center;
+        letter-spacing: -.02em;
+        margin-top: 0;
+        margin-bottom: 1em;
+        padding-top: 0;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+</style>
+{% block content %}
+
+<div data-w-id="0f683f86-f550-3954-0d49-2cb73ef14054" class="section-timeline-cta">
+    <div class="container-2">
+        <div class="padding-vertical-xlarge">
+            <div style="opacity: 1;" class="timeline-main_heading-wrapper">
+                <div class="margin-bottom-medium">
+                    <div class="timeline_date-text">{{cta.title}}</div>
+                </div>
+                <div class="margin-bottom-small">
+                    <div class="paragraph-large _11">{{cta.description}}<br></div>
+                </div>
+                <div class="margin-bottom-large">
+                    <p class="paragraph-large">{{cta.content | safe }}</p>
+                </div>
+                <a href="https://fluxofficial.medium.com/" target="_blank" class="button_zelcore roadmap w-button"
+                    data-ur1313m3t="true">More News</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

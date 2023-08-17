@@ -2,11 +2,13 @@
 
 {% block content %}
 
-{% set section = get_section(path="join-us/_index.md")%}
 <main class="pt-16">
-    {{ section.content | safe}}
-    <hr>
-    {% include "partials/page_list.html" %}
+
+    <div class="flex flex-col md:flex-row">
+        {% include "partials/tagsCards.html" %}
+        {% include "partials/tagsSidebar.html" %}
+    </div>
  </main> 
  
  {% endblock content %}
+

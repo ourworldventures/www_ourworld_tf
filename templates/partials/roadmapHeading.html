@@ -1,0 +1,37 @@
+{% set header_path = 'roadmap/heading/index.md' %}
+{% set header = get_page(path=header_path) %}
+{% block content %}
+
+<style>
+    .paragraph-3,
+    p {
+        width: 65%;
+        margin-right: auto;
+        margin-left: auto;
+        color: hsla(0, 0%, 100%, .8);
+        font-size: .7em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1em;
+        padding-top: 0;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+        font-size: .7em;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+</style>
+
+<div class="section-timeline-heading">
+    <div class="container-2">
+        <div class="padding-vertical-xlarge">
+            <h5 class="heading-2 mob rr mt-5">{{ header.title }}</h5>
+            <h2 class="title_section roadmap">{{ header.extra.subtitle }} <br />{{header.extra.subtitle2 }}</h2>
+            <p class="paragraph-3 roadmap">{{header.content | safe }}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

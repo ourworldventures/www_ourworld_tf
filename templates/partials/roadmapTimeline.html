@@ -1,0 +1,61 @@
+{% set timeline_path = 'timeline/_index.md' %}
+{% set timeline = get_section(path=timeline_path) %}
+
+
+<style>
+  ul {
+    margin-bottom: 0;
+    padding-left: 2em;
+    color: rgba(245, 245, 250, .47);
+    font-size: 1.4vw;
+    list-style: disc;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+    color: #fff;
+    font-size: .8em;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  li a {
+    color: #5d91ff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>
+{% block content %}
+
+
+<div class="section-timeline">
+  <div class="container-2">
+    <div class="timeline_wrapper">
+      <div class="timeline_progress">
+        <div class="timeline_progress-bar"></div>
+      </div>
+      {% for post in timeline.pages %}
+      <div data-w-id="0f683f86-f550-3954-0d49-2cb73ef13f85" class="timeline_item">
+        <div id="w-node-_0f683f86-f550-3954-0d49-2cb73ef13f86-45cac3f1" class="timeline_left"
+          style="will-change: opacity; opacity: 0.25;">
+          <div class="timeline_date-text">{{ post.extra.title }}</div>
+        </div>
+        <div id="w-node-_0f683f86-f550-3954-0d49-2cb73ef13f89-45cac3f1" class="timeline_centre">
+          <div class="timeline_circle" style="will-change: background; background-color: rgb(65, 65, 65);"></div>
+        </div>
+        <div id="w-node-_0f683f86-f550-3954-0d49-2cb73ef13f8b-45cac3f1" class="timeline_right"
+          style="will-change: opacity; opacity: 0.25;">
+          <div class="margin-bottom-xlarge">
+            <div class="timeline_title">{{ post.title }}</div>
+            {{ post.content | safe }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="overlay-fade-bottom"></div>
+      <div class="overlay-fade-top"></div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

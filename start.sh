@@ -1,11 +1,11 @@
 # builds if executable isn't foound
-if [[ ! -f "tailwindcss" ]]
+if [ ! -f "tailwindcss" ]
 then
     sh build.sh
 fi
 
 # initialized and configures tailwind if not configured
-if [[ ! -f "tailwind.config.js" ]]
+if [ ! -f "tailwind.config.js" ]
 then
     ./tailwindcss init
     sed -i '' "s|  content: \\[\\],|  content: \\['./templates/**/*.html'\\],|g" tailwind.config.js
