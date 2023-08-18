@@ -51,7 +51,7 @@ These are the first OurWorld Ventures, connected by a strong set of values and a
 
 ## Sikana
  
-### Digital Video Education System with 4B Views.
+### Digital Video Education System with 2B Views.
 
 <button>[Website](https://sikana.tv/)</button>
 
