@@ -42,7 +42,7 @@ Together we are creating a multi-faceted platform to support and empower startup
 
 {% row(style="center" padding="none") %}
 
-### **Funding Platform**
+### Funding Platform
 
 <br/>
 
@@ -50,18 +50,18 @@ Funding for potentially hundreds of like-minded projects, with a primary focus o
 
 |||
 
-### **Technological Platform**
+### Technological Platform
 
 <br/>
 
-A technological platform that enables everyone to be self-sovereign from a digital perspective.
+A technological platform that enables everyone to be self-sovereign from a digital perspective. This is a fundamental requirement.
 
 {% end %}
 
 
 {% row(style="center" padding="both") %}
 
-### **Legal & Financial Independence Platform**
+### Legal & Financial<br/>Independence Platform
 
 <br/>
 
@@ -69,7 +69,7 @@ Supplement technological sovereignty with a system that offers legal and financi
 
 |||
 
-### **Life Supporting Platform**
+### Life Supporting Platform
 
 <br/>
 
