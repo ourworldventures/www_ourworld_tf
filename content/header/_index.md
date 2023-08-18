@@ -8,8 +8,8 @@ extra:
   imgPath: ""
 ---
 
-- [ABOUT]("/about")
-- [VENTURES]("/ventures")
-- [BLOG]("/blog")
-- [NEWS]("/newsroom")
-- [PEOPLE]("/people")
+- [About]("/about")
+- [Ventures]("/ventures")
+- [Blog]("/blog")
+- [News]("/newsroom")
+- [People]("/people")

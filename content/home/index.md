@@ -152,7 +152,7 @@ Complexity is killing progress.
 
 ![Image](./img/past.png#mx-auto)
 
-#### **Creation of Core Tech**
+#### Creation of Core Tech
 
 <br/>
 
@@ -172,7 +172,7 @@ Built decentralized, autonomous, edge Internet technology.
 
 ![Image](./img/past.png)
 
-#### **Expansion & Proof**
+#### Expansion & Proof
 
 <br/>
 
@@ -192,7 +192,7 @@ Core technology proven.
 
 ![Image](./img/current.png)
 
-#### **Launch Our Ventures**
+#### Launch Our Ventures
 
 <br/>
 
@@ -216,7 +216,7 @@ Millions of people using services and products of our ventures.
 
 ![Image](./img/future.png)
 
-#### **Sovereignty For All**
+#### Sovereignty For All
 
 <br/>
 
