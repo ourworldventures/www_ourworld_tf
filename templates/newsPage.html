@@ -1,7 +1,7 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
-{% set split = page.content | split(pat="threefold.io") %}
+{% set split = page.content | split(pat="ourworld.tf") %}
 {% if split | length < 2 %}
     {% set content = page.content %}
 {% else %}
@@ -25,7 +25,7 @@
         {% if loop.first %}
             {% set_global content = part %}
         {% else %}
-            {% set_global content = content ~ "threefold.io" ~ part %}
+            {% set_global content = content ~ "ourworld.tf" ~ part %}
         {% endif %}
     {% endfor %}
 {% endif %}
@@ -119,7 +119,7 @@
         <div class="post-content-text text-xl">{{ content | safe }}</div>
       </section>
 
-      <section class="post-tags container mx-auto relative py-10">
+      <!-- <section class="post-tags container mx-auto relative py-10">
         {% for tag in page.taxonomies.tags %}
         {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
         <a href="{{fullpath}}" class="
@@ -136,7 +136,7 @@
             rounded-full
           ">{{ tag }}</a>
         {% endfor %}
-      </section>
+      </section> -->
     </div>
   </div>
 </main>
