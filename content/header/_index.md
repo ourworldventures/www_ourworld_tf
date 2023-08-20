@@ -12,4 +12,5 @@ extra:
 - [Ventures]("/ventures")
 - [Blog]("/blog")
 - [News]("/newsroom")
+- [Team]("/people")
 - [Knowledge]("https://ourworldventures.github.io/info_ourworld/intro/intro.html")

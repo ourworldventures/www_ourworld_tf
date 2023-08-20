@@ -10,6 +10,7 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: ourworldfreezone.png
+    isFeatured: true
 ---
 
 "Our vision is to foster a digital ecosystem that harmoniously blends the tranquility of Zanzibar with the awe-inspiring power of the digital age. I am deeply appreciative of the dedication of the OurWorld Zanzibar team in turning this vision into a reality," Zanzibar President Dr. Hussein Mwinyi.

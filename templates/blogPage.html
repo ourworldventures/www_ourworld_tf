@@ -72,7 +72,7 @@
         to=page.extra.imgPath)) %}
         <img class="mb-8 mx-auto" src={{img_url}} alt="{{page.title ~ 'Picture'}}">
         <div>{{ content | safe }}</div>
-        <section class="post-tags container relative py-10">
+        <!-- <section class="post-tags container relative py-10">
           {% for tag in page.taxonomies.tags %}
           {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
           <button class="
@@ -90,7 +90,7 @@
         "><a href="{{fullpath}}">{{ tag }}</a></button>
 
           {% endfor %}
-        </section>
+        </section> -->
       </article>
     </div>
 

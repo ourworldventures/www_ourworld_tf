@@ -119,7 +119,7 @@
         <div class="post-content-text text-xl">{{ content | safe }}</div>
       </section>
 
-      <section class="post-tags container mx-auto relative py-10">
+      <!-- <section class="post-tags container mx-auto relative py-10">
         {% for tag in page.taxonomies.tags %}
         {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
         <a href="{{fullpath}}" class="
@@ -136,7 +136,7 @@
             rounded-full
           ">{{ tag }}</a>
         {% endfor %}
-      </section>
+      </section> -->
     </div>
   </div>
 </main>
