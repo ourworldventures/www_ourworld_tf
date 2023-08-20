@@ -133,11 +133,11 @@ header .freeflow {
     position: absolute;
 }
 
-#info-menu button {
+#info-menu button, #info-mobile-menu button {
   background-color: transparent;
 }
 
-#info-menu button a {
+#info-menu button a, #info-mobile-menu button a {
   color: #1a1a1a;
 }
 
@@ -154,12 +154,12 @@ footer .freeflow img {
     width: 200px;
     margin-bottom: 20px;
 }
-#info-menu > div.freeflow {
+#info-menu > div.freeflow , #info-mobile-menu{
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 
-header .freeflow div, #info-menu div {
+header .freeflow div, #info-menu div, #info-mobile-menu div {
     box-shadow: none;
     text-transform: uppercase;
     font-weight: 700 !important;
@@ -358,7 +358,7 @@ a:hover{
   }
 }
 
-header #menu button,  #info-menu button{ 
+header #menu button,  #info-menu button, #info-mobile-menu button{ 
   @apply
   lg:text-lg
   px-6

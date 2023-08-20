@@ -30,41 +30,36 @@
                 </button>
             </div>
             <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-end lg:space-x-12">
-                <nav class="flex space-x-10">
-                    {% for header_item in header_items %}
-                        {% if not loop.first %}
-                            {% set header_arr = header_item | split(pat="</li>") %}
-                            {% set header_label = header_arr[0] %}
-                            {% if '<a' in header_label %}
-                                {% set link_label = header_label | striptags %}
-                                {% set link_path = header_label | split(pat="%22") | safe%}
-                                {% if header_label is containing("http") %}
-                                    {% if header_label is not containing("ourworld.tf") %}
-                                        <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                                            {{link_label}}
-                                        </a>
-                                    {% endif %}
-                                {% else %}
-                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                                    {{link_label}}
-                                </a>
-                                {% endif %}
-                            {% else %}
-                                <div class="relative">
-                                    {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                                <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 hover:text-gray-500 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
-                                    <span>{{ header_label }}</span>
-                                    <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
-                                </button>
-                                </div>
-            
-                            {% endif %}  
-                        {% endif %}
-                    {% endfor %}
-                    <a href="mailto:info@ourworld.tf" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                        Contact
-                    </a>
-                </nav>
+            <nav class="flex space-x-10">
+
+{% for header_item in header_items %}
+{% if not loop.first %}
+    {% set header_arr = header_item | split(pat="</li>") %}
+    {% set header_label = header_arr[0] %}
+    {% if '<a' in header_label %}
+        {% set link_label = header_label | striptags %}
+        {% set link_path = header_label | split(pat="%22") | safe%}
+        <a href="{{link_path[1]}}" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            {{link_label}}
+        </a>
+    {% else %}
+        <div class="relative">
+            {% set button_id = header_label ~ "-menu-btn" | slugify %}
+        <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
+            <span>{{ header_label }}</span>
+            <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
+        </button>
+        </div>
+
+    {% endif %}  
+{% endif %}
+{% endfor %}
+<a href="mailto:info@ourworld.tf" target="_blank" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+    Contact
+</a>
+</nav>
+
+
             </div>
         </div>
         </div>
@@ -100,14 +95,11 @@
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         -->
-    <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
-        <div>
+    <div id="hamburger" class="hidden fixed mt-28 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
             <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
                 <div class="pb-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
-
-                    <nav class="flex flex-col justify-around pb-12">
+                    <nav class="flex flex-col justify-around pb-12 pt-2">
                     {% for header_item in header_items %}
-
                         {% if not loop.first %}
                             {% set header_arr = header_item | split(pat="</li>") %}
                             {% set header_label = header_arr[0] %}
@@ -119,12 +111,12 @@
                                 </a>
                             {% else %}
                                 {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
-                                    <button type="button" id="{{button_id}}" class="flex flex px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    <button type="button" id="{{button_id}}" class="my-0 px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                         <span>{{ header_label }}</span>
                                         <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                                     </button>
                                     {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
-                                    <div id="{{menu_id}}" class="z-50 leading-3 pl-12 pt-6 pb-4 inset-x-0 text-sm transform duration-200 ease-in opacity-0 -translate-y-1 hidden">
+                                    <div id="{{menu_id}}" class="z-50 leading-3 pl-9 pt-6 pb-4 inset-x-0 text-sm transform duration-200 ease-in opacity-0 -translate-y-1 hidden">
                                         {{ header_arr[1] | safe }}
                                     </div>
                     
@@ -135,7 +127,7 @@
                     {% if "footer/_index.md" in subsections_str %}
                     {% set section = get_section(path="footer/_index.md")%}
                     {% set logoPath = section.extra.logoPath %}
-                    <div class="mx-8 mt-8">
+                    <div class="mx-8 my-2">
                         {# <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
                           <img class="w-48 h-auto" src="{{logoPath}}" alt="Company name" />
                           <p class="text-gray-500 text-base leading-6 ">
@@ -143,7 +135,7 @@
                           </p>
                       </div> #}
                     {% endif %}
-                    <a href="mailto:info@ourworld.tf" target="_blank" class="text-lg uppercase leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                    <a href="mailto:info@ourworld.tf" target="_blank" class="my-0 text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         Contact
                     </a>
                     </nav>                    
@@ -151,7 +143,6 @@
             
         </div>
         
-        </div>
     </div>
 
 
