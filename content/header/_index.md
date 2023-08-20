@@ -10,7 +10,7 @@ extra:
 
 - [About]("/about")
 - [Ventures]("/ventures")
-- Ecosystem
+- Info
 
 {% row(padding="none") %}
 
