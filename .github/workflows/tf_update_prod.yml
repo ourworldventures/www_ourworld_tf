@@ -19,6 +19,6 @@ jobs:
           cd websites/www_ourworld_tf/
           git log -1
           git fetch
-          git reset --hard origin/development
+          git reset --hard origin/master
           sed -i "s/https:\/\/www2.ourworld.tf/https:\/\/ourworld.tf/g" config.toml
           ./build.sh
