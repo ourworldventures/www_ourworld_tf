@@ -133,6 +133,14 @@ header .freeflow {
     position: absolute;
 }
 
+#ecosystem-menu button {
+  background-color: transparent;
+}
+
+#ecosystem-menu button a {
+  color: #1a1a1a;
+}
+
 footer .freeflow {
     width: 100vw;
     background-color: #eae8e3;
@@ -146,9 +154,12 @@ footer .freeflow img {
     width: 200px;
     margin-bottom: 20px;
 }
+#ecosystem-menu > div.freeflow {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
 
-
-header .freeflow div {
+header .freeflow div, #ecosystem-menu div {
     box-shadow: none;
     text-transform: uppercase;
     font-weight: 700 !important;
@@ -347,7 +358,7 @@ a:hover{
   }
 }
 
-header #menu button { 
+header #menu button,  #ecosystem-menu button{ 
   @apply
   lg:text-lg
   px-6

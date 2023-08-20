@@ -12,12 +12,12 @@
 
 <!-- Default page template for blog posts and basic informative markdown files -->
 
-{% set split = page.content | split(pat="threefold.io") %}
+{% set split = page.content | split(pat="ourworld.tf") %}
 {% if split | length < 2 %} {% set content=page.content %} {% else %} {% set content="" %} {% for part in split %} {% if
   part is starting_with("/blog") %} {% set split_part=part | split(pat='/">' ) %} {% set link=split_part[0] %} {% set
   link=link | replace(from="/blog/post" , to="/blog" ) %} {% set link=link | replace(from="_" , to="-" ) %} {% set
   rest_part=split_part | slice(start=1) | join(sep='/">' ) %} {% set part=link ~ '/">' ~ rest_part %} {% endif %} {% if
-  loop.first %} {% set_global content=part%} {% else %} {% set_global content=content ~ "threefold.io" ~ part%} {% endif
+  loop.first %} {% set_global content=part%} {% else %} {% set_global content=content ~ "ourworld.tf" ~ part%} {% endif
   %} {% endfor %} {% endif %} <main>
 
   <div class="container mx-auto mt-10">
