@@ -114,6 +114,20 @@ window.onload = function () {
         });
     })
 
+    var links = document.links;
+    var internal_hosts = [
+        'www.ourworld.tf',
+        'ourworld.tf',
+        'www2.ourworld.tf',
+        'localhost',
+        '127.0.0.1'
+    ]
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+        if (!internal_hosts.includes(links[i].hostname)) {
+            links[i].target = '_blank';
+        }
+    }
+
     document.getElementById("filter-btn").addEventListener('click', toggleFilter);
     document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
 }

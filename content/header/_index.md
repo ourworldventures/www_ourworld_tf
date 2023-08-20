@@ -43,4 +43,3 @@ extra:
 {% end %}
 
 - [Knowledge]("https://ourworldventures.github.io/info_ourworld/intro/intro.html")
-- [Contact]("mailto:info@ourworld.tf")
