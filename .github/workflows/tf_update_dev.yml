@@ -18,7 +18,7 @@ jobs:
         script: |
           cd websites/www2/www_ourworld_tf/
           git log -1
-          git restore .
-          git pull
+          git fetch
+          git reset --hard origin/development
           sed -i "s/https:\/\/www.ourworld.tf/https:\/\/www2.ourworld.tf/g" config.toml
           ./build.sh

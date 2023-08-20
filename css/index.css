@@ -12,27 +12,6 @@
   -webkit-backdrop-filter: blur(40px);
 }
 
-@font-face {
-    font-family: "CercoDEMO";
-    font-weight: 500;
-    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Medium.otf") format("opentype");
-    src: url("../fonts/CercoDEMO-Medium.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "CercoDEMO";
-    font-weight: 600;
-    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Bold.otf") format("opentype");
-    src: url("../fonts/CercoDEMO-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "CercoDEMO";
-    font-weight: 400;
-    src: url("https://www2.freeflow.life/fonts/CercoDEMO-Light.otf") format("opentype");
-    src: url("../fonts/CercoDEMO-Light.otf") format("opentype");
-}
-
 * {
   font-family: "CercoDEMO", sans-serif;
 }
@@ -315,6 +294,10 @@ header {
   background-repeat: no-repeat;
 }
 
+a:hover{
+  color: #5e5b59;
+}
+
 .banner:hover {
   background: #4b3a92;
 }
@@ -362,4 +345,35 @@ header {
   .header {
     padding: 80px 0;
   }
+}
+
+header #menu button { 
+  @apply
+  lg:text-lg
+  px-6
+  py-1
+  lg:mr-5
+  my-3
+  shadow
+  border-black
+  capitalize 
+  leading-6 
+  border-transparent 
+  flex 
+  flex-col
+  border-2 
+  w-full 
+  items-start
+  rounded 
+  transition 
+  hover:first:text-gray-500 
+  hover:border-stone-200 
+  hover:bg-stone-100 
+  p-2 
+  text-left
+}
+
+header #menu button a{
+  @apply
+  px-0
 }

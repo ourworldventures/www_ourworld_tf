@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
 
-    
     {% include "partials/head.html" %}
     
     <body>
         {% include "partials/header.html" %}
-        <div id="content" class="mx-auto overflow-hidden">
+        <div id="content" class="py-4 sm:py-12 md:py-16 lg:py-18 overflow-hidden">
             {% block content %}{% endblock %}    
         </div>
         {% include "partials/footer.html" %}
+        <script type="text/javascript" src="{{ get_url(path='js/custom.js')}}"></script>
     </body>
 </html>
