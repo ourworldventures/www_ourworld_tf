@@ -43,6 +43,8 @@ extra:
 
 <br>
 
+<a onclick="window.open('https://threefold.io', '_blank')"><h6>ThreeFold</h6></a>
+
 <a onclick="window.open('https://t.me/threefold', '_blank')"><h6>Main Community</h6></a>
 
 <a onclick="window.open('https://manual.grid.tf', '_blank')"><h6>Manual</h6></a>
