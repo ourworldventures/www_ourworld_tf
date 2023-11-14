@@ -1,5 +1,9 @@
 echo "Starting build..."
 
+SOURCE=${BASH_SOURCE[0]}
+DIR_OF_THIS_SCRIPT="$( dirname "$SOURCE" )"
+ABS_DIR_OF_SCRIPT="$( realpath $DIR_OF_THIS_SCRIPT )"
+
 # TODO: Check if current version is latest to avoid redundant installation
 if [[ -f "tailwindcss" ]]
 then
@@ -39,6 +43,6 @@ fi
 echo "Compiling tailwindcss and building zola project..."
 rm -rf public static/css
 ./tailwindcss -i css/index.css -o ./static/css/index.css --minify
-zola build
+zola --root $ABS_DIR_OF_SCRIPT build
 
 
