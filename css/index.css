@@ -165,13 +165,6 @@ header .freeflow div, #info-menu div, #info-mobile-menu div {
     font-weight: 700 !important;
 }
 
-button {
-  background-color: #1a1a1a;
-  border-radius: 20px;
-  border: 2px solid white;
-  box-shadow: none;
-  font-size: 20px;
-}
 
 button {
     background-color: #1a1a1a;
