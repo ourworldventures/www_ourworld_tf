@@ -194,6 +194,11 @@ header {
   background-color: transparent !important;
 }
 
+.menu-mobile {
+
+  background-color: transparent !important;
+}
+
 .quicklinks {
   box-sizing: border-box;
   -webkit-align-items: center;
