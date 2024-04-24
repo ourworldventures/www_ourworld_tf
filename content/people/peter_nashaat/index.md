@@ -4,11 +4,11 @@ weight: 4
 description: Passionate DevOps Engineer
 taxonomies:
     people: [peter_nashaat]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: peter_nashaat.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

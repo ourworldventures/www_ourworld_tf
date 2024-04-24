@@ -4,11 +4,11 @@ weight: 5
 description: Sameh is a passionate software engineer with a talent for problem-solving and an unwavering commitment to quality.
 taxonomies:
     people: [sameh_abouelsaad]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: sameh_abouelsaad.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

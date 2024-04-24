@@ -4,11 +4,11 @@ weight: 1
 description: Honored to be part of a team that has the potential to make the world a better place..
 taxonomies:
     people: [adnan_fatayerji]
-    memberships: [farmers, foundation, cofounders, wisdom_council, aci_members]
-    categories: [foundation, farming, cloud, aci]
+    memberships: []
+    categories: []
 extra:
     imgPath: adnan_fatayerji.jpg
-    organizations: [threefold_foundation]
+    organizations: []
     countries: [UAE, Spain]
     cities: [Dubai, Ibiza]
     private: 0

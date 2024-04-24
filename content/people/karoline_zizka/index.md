@@ -4,11 +4,11 @@ weight: 2
 description: Currently serving by coordinating with people on particular projects, always having the most productive and playful outcomes for the Highest Good of all in mind and heart.
 taxonomies:
     people: [karoline_zizka]
-    memberships: [foundation]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: karoline_zizka.jpeg
-    organizations: [threefold_foundation]
+    organizations: []
     countries: [Austria]
     cities: [Vienna]
     private: 0

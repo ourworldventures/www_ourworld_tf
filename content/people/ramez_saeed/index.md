@@ -4,11 +4,11 @@ weight: 4
 description: Ramez has about 10 years of experience in CloudComputing software.
 taxonomies:
     people: [ramez_saeed]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: ramez_saeed.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

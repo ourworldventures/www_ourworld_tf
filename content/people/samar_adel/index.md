@@ -4,11 +4,11 @@ weight: 2
 description: I believe in a world where everyone can be happy.
 taxonomies:
     people: [samar_adel]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: samar_adel.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

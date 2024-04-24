@@ -4,11 +4,11 @@ weight: 4
 description: Software Test Engineer with a passion for learning and exploring.
 taxonomies:
     people: [mohamed_amer]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: mohamed_amer.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

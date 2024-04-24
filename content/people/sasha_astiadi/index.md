@@ -4,11 +4,11 @@ weight: 2
 description: Product Manager with a passion in blockchain, sustainability, and decentralization
 taxonomies:
     people: [sasha_astiadi]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: sasha_astiadi.png
-    organizations: [threefold_foundation, threefold_tech]
+    organizations: []
     countries: [Indonesia, Spain, Germany]
     cities: [Bali, Barcelona, Berlin]
     private: 0

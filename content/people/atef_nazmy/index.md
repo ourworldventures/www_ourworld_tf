@@ -4,11 +4,11 @@ weight: 3
 description: I Believe that ThreeFold Foundation Drives the world to be Better and Greener.
 taxonomies:
     people: [atef_nazmy]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: atef_nazmy.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

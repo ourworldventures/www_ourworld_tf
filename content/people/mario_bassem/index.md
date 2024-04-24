@@ -4,11 +4,11 @@ weight: 4
 description: Software Engineer.
 taxonomies:
     people: [mario_bassem]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: mario.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

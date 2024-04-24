@@ -4,11 +4,11 @@ weight: 2
 description: Nayer is a passionate about people’s development, and that we can be the change we want to see.
 taxonomies:
     people: [nayer_sobhy]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: nayer_sobhy.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

@@ -4,11 +4,11 @@ weight: 3
 description: Software Engineer with passion in new technologies, love every thing that is really new.
 taxonomies:
     people: [ashraf_fouda]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: ashraf_fouda.jpeg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

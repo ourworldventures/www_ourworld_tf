@@ -4,11 +4,11 @@ weight: 1
 description: Peter is HR-manager and Financial Advisor For TF Tech
 taxonomies:
     people: [peter_van_der_henst]
-    memberships: [foundation, tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: peter_van_der_henst.png
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Belgium]
     cities: []
     private: 0

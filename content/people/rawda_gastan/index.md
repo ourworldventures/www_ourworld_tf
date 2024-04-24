@@ -4,11 +4,11 @@ weight: 4
 description: I am a software engineer, always looking for new opportunties and ways to improve.
 taxonomies:
     people: [rawda_gastan]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: rawda_gastan.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0
