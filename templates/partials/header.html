@@ -19,13 +19,13 @@
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
-                    <button id="hamburger-btn" type="button" class="menu-mobile inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <button id="hamburger-btn" class="menu-mobile inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
                         <!-- Heroicon name: menu -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
-                <button id="close-hamburger-btn" type="button" class="menu-mobile hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                <button id="close-hamburger-btn" class="menu-mobile hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
                     <!-- Heroicon name: x -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -102,7 +102,7 @@
                             {% set button_id = subsection ~ "-mobile-menu-btn" | slugify %}
                             {% set menu_id = subsection ~ "-mobile-menu" | slugify %}
 
-                            <button type="button" id="{{button_id}}" class="flex flex px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                            <button type="button" id="{{button_id}}" class="menu-mobile flex px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                 <span>{{ subsection }}</span>
                                 <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                             </button>
