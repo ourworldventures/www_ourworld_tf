@@ -13,7 +13,7 @@ extra:
     cities: []
     private: 0
     socialLinks: {
-        LinkedIn: https://www.linkedin.com/in/samtaggart/,
+        LinkedIn: https://www.linkedin.com/in/vianney-spriet-09737526/,
         websites: https://ourworld.tf,
     }
 ---
