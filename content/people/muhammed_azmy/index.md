@@ -4,11 +4,11 @@ weight: 4
 description: Senior Software Engineer at ThreeFold Tech
 taxonomies:
     people: [muhammed_azmy]
-    memberships: [tech, technology_council]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: muhamed_amzy.png
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

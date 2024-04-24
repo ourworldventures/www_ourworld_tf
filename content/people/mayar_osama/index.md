@@ -4,11 +4,11 @@ weight: 4
 description: I believe in a world where everyone can be happy.
 taxonomies:
     people: [mayar_osama]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: mayar_osama.jpeg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

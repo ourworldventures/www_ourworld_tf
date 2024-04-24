@@ -4,11 +4,11 @@ weight: 3
 description: Making technology more accessible and inclusive; everyone should have the opportunity to benefit from technology, regardless of their background or technical expertise.
 taxonomies:
     people: [shangreiyo_awungshi]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: shangreiyo_awungshi.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: []
     cities: []
     private: 0

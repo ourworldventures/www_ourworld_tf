@@ -4,11 +4,11 @@ weight: 3
 description: My biggest passion is learning about new technologies.
 taxonomies:
     people: [samir_hosny]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: samir_hosny.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

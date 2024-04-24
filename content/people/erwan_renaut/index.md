@@ -4,11 +4,11 @@ weight: 4
 description: Contributing to define a new truly decentralized internet where you are not the product.
 taxonomies:
     people: [erwan_renaut]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: erwan_renaut.jpeg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Brazil]
     cities: [Rio de Janeiro]
     private: 0

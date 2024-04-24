@@ -4,11 +4,11 @@ weight: 5
 description: Experienced Office Manager with a demonstrated history of working in IT industry.
 taxonomies:
     people: [evon_yacoub]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: evon_yacoub.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

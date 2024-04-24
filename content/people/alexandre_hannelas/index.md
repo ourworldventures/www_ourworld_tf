@@ -4,11 +4,11 @@ weight: 2
 description: Alexandre has worked with regenerative companies to help them in their funding rounds.
 taxonomies:
     people: [alexandre_hannelas]
-    memberships: [foundation, twin, aci_members]
-    categories: [foundation, twin, aci]
+    memberships: []
+    categories: []
 extra:
     imgPath: alexandre_hannelas.jpeg
-    organizations: [threefold_foundation]
+    organizations: []
     countries: [France]
     cities: [Aix-en-Provence]
     private: 0

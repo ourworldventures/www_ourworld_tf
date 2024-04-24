@@ -4,11 +4,11 @@ weight: 3
 description: Consultant at ThreeFold DMCC
 taxonomies:
     people: [mahendra_varma]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: mahendra_varma.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: []
     cities: []
     private: 0

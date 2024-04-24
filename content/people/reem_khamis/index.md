@@ -4,11 +4,11 @@ weight: 2
 description: Reem believes in books, and that technology is the key to making the world a bit better place.
 taxonomies:
     people: [reem_khamis]
-    memberships: [tech, foundation]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: reem_khamis.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

@@ -4,11 +4,11 @@ weight: 4
 description: Software Engineer.
 taxonomies:
     people: [omar_kassem]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: omar_kassem.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0

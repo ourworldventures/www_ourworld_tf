@@ -4,11 +4,11 @@ weight: 3
 description: Musician and mathematician contributing to the ThreeFold documentation.
 taxonomies:
     people: [mik_perreault]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: mik_perreault.jpg
-    organizations: [threefold_tech]
+    organizations: []
     countries: []
     cities: []
     private: 0

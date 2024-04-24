@@ -4,11 +4,11 @@ weight: 4
 description: Software Engineer
 taxonomies:
     people: [zainab_elgohary]
-    memberships: [tech]
-    categories: [foundation]
+    memberships: []
+    categories: []
 extra:
     imgPath: zainab_elgohary.jpeg
-    organizations: [threefold_tech]
+    organizations: []
     countries: [Egypt]
     cities: [Cairo]
     private: 0
