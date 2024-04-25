@@ -1,6 +1,6 @@
 ---
 title: Jan De Landtsheer
-weight: 1
+weight: 2
 description: Techie at heart, having lived professionally in the tech basements of the Internet.
 taxonomies:
     people: [jan_de_landtsheer]

@@ -1,6 +1,6 @@
 ---
 title: Owen Kemp
-weight: 1
+weight: 2
 description: I am an optimist and love doing things differently than the norm.
 taxonomies:
     people: [owen_kemp]

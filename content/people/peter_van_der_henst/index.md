@@ -1,6 +1,6 @@
 ---
 title: Peter van der Henst
-weight: 1
+weight: 2
 description: Peter is HR-manager and Financial Advisor For TF Tech
 taxonomies:
     people: [peter_van_der_henst]

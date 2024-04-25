@@ -1,6 +1,6 @@
 ---
 title: Gregory Flipo
-weight: 2
+weight: 1
 description: I move people to develop their potential and serve the common good.
 taxonomies:
     people: [gregory_flipo]
