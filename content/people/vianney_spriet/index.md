@@ -1,6 +1,6 @@
 ---
 title: Vianney Spriet
-weight: 2
+weight: 1
 description: I am a true professional Swiss army knife, versatile and always ready to take on new challenges.
 taxonomies:
     people: [vianney_spriet]

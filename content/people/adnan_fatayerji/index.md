@@ -1,6 +1,6 @@
 ---
 title: Adnan Fatayerji
-weight: 1
+weight: 2
 description: Honored to be part of a team that has the potential to make the world a better place..
 taxonomies:
     people: [adnan_fatayerji]
