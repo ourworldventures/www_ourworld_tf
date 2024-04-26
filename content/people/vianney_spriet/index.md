@@ -1,7 +1,7 @@
 ---
 title: Vianney Spriet
 weight: 1
-description: I am a true professional Swiss army knife, versatile and always ready to take on new challenges.
+description: Ecosystem development, wealth manager, former professional skipper.
 taxonomies:
     people: [vianney_spriet]
     memberships: []
@@ -18,8 +18,7 @@ extra:
     }
 ---
 
-I am a true professional Swiss army knife, versatile and always ready to take on new challenges.
-Having started in retail, I developed skills in management, business development and customer relations. Looking for adventure, I turned to hospitality, then spent six exciting years as a professional skipper and yacht captain, mastering leadership at sea. Returning to land, I embarked on wealth management, applying my expertise in a new field.
+I am a true professional Swiss army knife, versatile and always ready to take on new challenges. Having started in retail, I developed skills in management, business development and customer relations. Looking for adventure, I turned to hospitality, then spent six exciting years as a professional skipper and yacht captain, mastering leadership at sea. Returning to land, I embarked on wealth management, applying my expertise in a new field.
 
 <br>
 

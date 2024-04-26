@@ -1,7 +1,7 @@
 ---
 title: Kristof de Spiegeleer
 weight: 1
-description: Nerd engineer, humanist & motivated entrepreneur.
+description: Founder & CEO. Nerd engineer, humanist & motivated entrepreneur.
 taxonomies:
     people: [kristof_de_spiegeleer]
     memberships: []

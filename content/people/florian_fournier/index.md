@@ -1,7 +1,7 @@
 ---
 title: Florian Fournier
 weight: 1
-description: The vision is always the same - to enact individual actions that address global challenges.
+description: Ecosystem development. The vision is always the same - to enact individual actions that address global challenges.
 taxonomies:
     people: [florian_fournier]
     memberships: []
