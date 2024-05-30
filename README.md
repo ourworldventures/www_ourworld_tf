@@ -1,7 +1,7 @@
-# Welcome to Ourworld Website Repository
+# Welcome to OurWorld Website Repository
 
-- Website Name: Ourworld
-- Brief Description: This is the official website of Ourworld.
+- Website Name: OurWorld
+- Brief Description: This is the official website of OurWorld.
 Last Updated: March 2023
 
 - production(master branch) https://ourworld.tf/
