@@ -2,8 +2,23 @@
 {% block content %}
 
 <!-- home page template, has a banner and rows of page summaries -->
+
+{% include "partials/hero.html" %}
+
+
+
 <div>
     {% set page = get_page(path="home/index.md") %}
     {{page.content | safe}}
 </div>
+
+{% include "partials/about.html" %}
+
+{% include "partials/feature.html" %}
+
+{% include "partials/stats.html" %}
+
+{% include "partials/ventures.html" %}
+{% include "partials/blogs.html" %}
+{% include "partials/quote.html" %}
 {% endblock content %}
