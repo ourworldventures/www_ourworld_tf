@@ -240,7 +240,7 @@ header {
 .banner {
   width: 100%;
   margin: 0;
-  padding: 120px 0;
+  padding: 100px 0;
   text-align: center;
   position: relative;
   display: block;
@@ -342,7 +342,7 @@ a:hover{
   }
 
   .header h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .banner h2 svg {
@@ -353,7 +353,7 @@ a:hover{
 @media (max-width: 480px) {
   .banner,
   .header {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 
