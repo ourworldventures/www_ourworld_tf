@@ -1,0 +1,63 @@
+<div class="relative isolate overflow-hidden h-screen">
+  <video autoplay loop muted class="absolute inset-0 -z-10 h-full w-full object-cover">
+    <source src="/videos/ourworld.mp4" type="video/mp4">
+  </video>
+  <div class="flex flex-col justify-center items-center mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center h-full">
+    <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+        Announcing our new initiative: <b>OW Digital Freezone</b>. <a href="/newsroom/ourworldfreezone/" class="font-semibold text-white"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="text-center">
+      <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold leading-8 tracking-tight text-white mb-4">OurWorld</h1>
+      <h2 class="text-xl sm:text-2xl text-gray-200">A Platform to Enable Self-Sovereignty.</h2>
+      <p class="mt-6 text-lg sm:text-xl leading-7 sm:leading-8 text-white font-light mx-4 sm:mx-0">Together we are creating a multi-faceted platform to support and empower startups aspiring to harness the potential of emerging technology while putting our planet and people first. The sun is rising on a new way forward.</p>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <a href="/ventures" class="rounded-md bg-black px-3.5 py-2.5 font-semibold text-white shadow-sm hover:bg-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-hover">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+
+  .relative.isolate.overflow-hidden.h-screen {
+    height: 100vh;
+  }
+
+  video {
+    object-fit: cover;
+  }
+
+  .bg-black {
+    color: white;
+    background: #000;
+  }
+
+  .bg-hover {
+    color: white;
+    background: #020202;
+  }
+
+  /* Custom styles for smaller font, margin adjustments, and line spacing for mobile */
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 2rem; /* Smaller font for mobile */
+    }
+    
+    h2 {
+      font-size: 1.25rem; /* Smaller font for mobile */
+    }
+
+    p {
+      font-size: 1rem; /* Smaller font for mobile */
+      margin-left: 1rem; /* Margin left for mobile */
+      margin-right: 1rem; /* Margin right for mobile */
+      line-height: 1.5; /* Smaller line spacing */
+    }
+  }
+</style>
