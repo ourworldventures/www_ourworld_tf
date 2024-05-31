@@ -3,11 +3,13 @@
 
 <!-- home page template, has a banner and rows of page summaries -->
 
-{% include "partials/company.html" %}
+
 
 <div>
     {% set page = get_page(path="about/index.md") %}
     {{page.content | safe}}
 </div>
+
+{% include "partials/company.html" %}
 
 {% endblock content %}
