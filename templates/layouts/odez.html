@@ -1,0 +1,16 @@
+{% extends "_default/base.html" %}
+{% block content %}
+
+<!-- home page template, has a banner and rows of page summaries -->
+
+
+
+<div>
+    {% set page = get_page(path="odez/index.md") %}
+    {{page.content | safe}}
+</div>
+
+{% include "partials/odez.html" %}
+
+
+{% endblock content %}
