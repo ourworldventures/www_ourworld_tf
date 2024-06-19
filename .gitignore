@@ -26,3 +26,7 @@ install*
 public
 static/css
 tailwindcss
+
+# .gitignore
+node_modules/
+.env
