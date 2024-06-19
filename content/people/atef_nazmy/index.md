@@ -1,6 +1,6 @@
 ---
 title: Atef Nazmy
-weight: 3
+weight: 4
 description: I Believe that ThreeFold Foundation Drives the world to be Better and Greener.
 taxonomies:
     people: [atef_nazmy]

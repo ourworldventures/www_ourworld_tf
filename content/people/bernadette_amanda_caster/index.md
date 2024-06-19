@@ -1,6 +1,6 @@
 ---
 title: Bernadette Amanda Caster
-weight: 3
+weight: 4
 description: Passionate, Outgoing and Enthusiast 
 taxonomies:
     people: [bernadette_amanda_caster]
