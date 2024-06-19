@@ -1,6 +1,6 @@
 ---
 title: Ahmed Thabet
-weight: 2
+weight: 3
 description: Wants to build beautiful applications that don't invade user privacy.
 taxonomies:
     people: [ahmed_thabet]

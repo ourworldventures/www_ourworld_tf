@@ -1,6 +1,6 @@
 ---
 title: Alexandre Hannelas
-weight: 1
+weight: 3
 description: Finance manager, artist-painter, nature enthusiast.
 taxonomies:
     people: [alexandre_hannelas]

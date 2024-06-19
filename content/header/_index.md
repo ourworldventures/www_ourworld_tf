@@ -10,6 +10,6 @@ extra:
 - [Home]("/")
 - [About]("/about")
 - [Ventures]("/ventures")
-- [ODEZ]("/odez")
+- [People]("/people")
 - [Newsroom]("/newsroom")
 - [Wiki]("https://ourworldfreezone.github.io/info_freezone/intro/intro_readme.html")

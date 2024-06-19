@@ -1,6 +1,6 @@
 ---
 title: Lee Smet
-weight: 2
+weight: 3
 description: In order to have a nice planet to live on for the next decades, we need to preserve what we have now.
 taxonomies:
     people: [lee_smet]
