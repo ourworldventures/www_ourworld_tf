@@ -1,6 +1,6 @@
 ---
 title: Karoline Zizka
-weight: 1
+weight: 2
 description: Coordination. Always having the most productive and playful outcomes for the Highest Good of all in mind and heart.
 taxonomies:
     people: [karoline_zizka]

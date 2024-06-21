@@ -1,6 +1,6 @@
 ---
 title: Mahendra Varma
-weight: 3
+weight: 4
 description: Consultant at ThreeFold DMCC
 taxonomies:
     people: [mahendra_varma]

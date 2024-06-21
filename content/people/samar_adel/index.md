@@ -1,6 +1,6 @@
 ---
 title: Samar Adel
-weight: 2
+weight: 3
 description: I believe in a world where everyone can be happy.
 taxonomies:
     people: [samar_adel]

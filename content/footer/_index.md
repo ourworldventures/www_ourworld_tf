@@ -10,17 +10,19 @@ extra:
 
 {% row(style="lean") %}
 
-##### Affiliate Projects
+##### Partners
 
 <br>
 
 <a onclick="window.open('https://threefold.io', '_blank')"><h6>ThreeFold</h6></a>
 
-###### [Incubaid](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
+###### [Incubaid](https://incubaid.com/)
 
-###### [Mazraa](https://dashboard.grid.tf/)
+###### [Mazraa](https://maazra.io/)
 
-###### [Freeflow Nation](https://manual.grid.tf/farmers/farmers.html)
+###### [Sikana](https://sikana.tv/)
+
+###### [VVerse](https://vverse.co/)
 
 |||
 
@@ -30,13 +32,11 @@ extra:
 
 <a onclick="window.open('https://ourworld.tf', '_blank')"><h6>OurWorld</h6></a>
 
-###### [Freezone](/)
-
 <a onclick="window.open('https://ourphone.ourworld.tf/', '_blank')"><h6>OurPhone</h6></a>
 
-<a onclick="window.open('https://ourparadise.ourworld.tf/', '_blank')"><h6>OurParadise</h6></a>
+<a onclick="window.open('https://ourworld.vindo.ai/slider/95', '_blank')"><h6>ODEZ</h6></a>
 
-
+<a onclick="window.open('https://habari.ourworld.tf', '_blank')"><h6>Habari</h6></a>
 
 
 |||
@@ -45,16 +45,12 @@ extra:
 
 <br>
 
-<a onclick="window.open('https://ourworldfreezone.github.io/info_freezone/', '_blank')"><h6>Manual</h6></a>
-
 
 <a onclick="window.open('https://t.me/threefoldnews', '_blank')"><h6>Telegram</h6></a>
 
 
 <a onclick="window.open('https://threefoldfaq.crisp.help/en/', '_blank')"><h6>Support</h6></a>
 
-
-<a onclick="window.open('https://github.com/ourworldfreezone', '_blank')"><h6>Github</h6></a>
 
 {% end %}
 

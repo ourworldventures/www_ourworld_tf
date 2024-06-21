@@ -1,6 +1,6 @@
 ---
 title: Maxime Daniel
-weight: 2
+weight: 3
 description: C, python and nodejs developer, Gentoo user, Linux and Music addict
 taxonomies:
     people: [maxime_daniel]

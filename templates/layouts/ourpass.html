@@ -1,0 +1,25 @@
+{% extends "_default/base.html" %}
+{% block content %}
+
+<!-- home page template, has a banner and rows of page summaries -->
+
+
+
+<div>
+    {% set page = get_page(path="about/index.md") %}
+    {{page.content | safe}}
+</div>
+
+{% include "partials/invest.html" %}
+
+{% include "partials/opbenefits.html" %}
+
+
+
+{% include "partials/opfeatures.html" %}
+
+{% include "partials/ophow.html" %}
+
+{% include "partials/opcta.html" %}
+
+{% endblock content %}

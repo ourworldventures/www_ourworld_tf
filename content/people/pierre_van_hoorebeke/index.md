@@ -1,6 +1,6 @@
 ---
 title: Pierre van Hoorebeke
-weight: 2
+weight: 3
 description: Experienced business lawyer, assisting founders, investors and private companies on corporate, commercial and IP matters.
 taxonomies:
     people: [pierre_van_hoorebeke]

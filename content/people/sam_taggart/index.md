@@ -1,6 +1,6 @@
 ---
 title: Sam Taggart
-weight: 1
+weight: 2
 description: Communication & community. Let's co-create a better future for humanity and for our planet.
 taxonomies:
     people: [sam_taggart]
