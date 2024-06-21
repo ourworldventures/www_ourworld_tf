@@ -9,6 +9,7 @@ extra:
 ---
 - [Home]("/")
 - [About]("/about")
+- [Invest]("/invest")
 - [Ventures]("/ventures")
 - [People]("/people")
 - [Newsroom]("/newsroom")
