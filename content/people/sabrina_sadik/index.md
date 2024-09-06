@@ -1,6 +1,6 @@
 ---
 title: Sabrina Sadik
-weight: 2
+weight: 1
 description: Sabrina is a jack of all trades when it comes to ThreeFold.
 taxonomies:
     people: [sabrina_sadik]
