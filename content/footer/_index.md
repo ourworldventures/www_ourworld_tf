@@ -18,8 +18,6 @@ extra:
 
 ###### [Incubaid](https://incubaid.com/)
 
-###### [Mazraa](https://maazra.io/)
-
 ###### [Sikana](https://sikana.tv/)
 
 ###### [VVerse](https://vverse.co/)
@@ -34,9 +32,6 @@ extra:
 
 <a onclick="window.open('https://ourphone.ourworld.tf/', '_blank')"><h6>OurPhone</h6></a>
 
-<a onclick="window.open('https://ourworld.vindo.ai/slider/95', '_blank')"><h6>ODEZ</h6></a>
-
-<a onclick="window.open('https://habari.ourworld.tf', '_blank')"><h6>Habari</h6></a>
 
 
 |||
