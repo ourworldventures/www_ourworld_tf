@@ -7,6 +7,9 @@
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
@@ -304,6 +307,11 @@ header {
   background-repeat: no-repeat;
 }
 
+.main-button {
+  color: #fff;
+  background: #6366f1;
+}
+
 a:hover{
   color: #5e5b59;
 }
@@ -387,3 +395,4 @@ header #menu button a{
   @apply
   px-0
 }
+
