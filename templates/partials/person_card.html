@@ -1,5 +1,5 @@
 <div class="flex flex-col px-0 sm:px-4 pb-2">
-    <a href="{{page.permalink}}" class="border-0 text-gray-700 hover:!text-gray-700 font-normal text-left">
+    <a href="{{page.permalink}}" class="border-0 text-gray-700 hover:!text-gray-700 font-normal text-left" style="pointer-events: none;">
         {% set url = get_url(path='/' ~ page.relative_path | replace(from='_', to='-') | replace(from='index.md', to=page.extra.imgPath)) %}
         <img src="{{url}}" alt="{{page.title ~ ' Picture'}}" />
         <div>
