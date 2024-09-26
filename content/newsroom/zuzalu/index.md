@@ -1,13 +1,13 @@
 ---
 id: zuzalu
-title: 🗓 ThreeFold Team @ Zuzalu
-image_caption: ThreeFold Team @ Zuzalu
+title: ThreeFold & OurWorld Teams @ Zuzalu
+image_caption: ThreeFold / OurWorld Teams Attending Zuzalu
 description: Some of the team is at the New Cities & Network States event at Zuzalu, where Kristof will be speaking.
 date: 2023-04-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [update, news, community]
-    news-category: [foundation]
+    people: []
+    tags: []
+    news-category: []
 extra:
     imgPath: zuzalu.png
 ---
@@ -21,10 +21,6 @@ Other speakers include Vitalik Buterin (founder of Ethereum), Balaji Srinivasan 
 <br/>
 
 Looking forward to a productive event with a like-minded community of people and sharing how ThreeFold provides the ideal underlying infrastructure for new cities and network states!
-
-<br/>
-
-We'll share more as we have it here and/or on other channels.
 
 <br/>
 

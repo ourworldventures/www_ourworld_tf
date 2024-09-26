@@ -11,6 +11,5 @@ extra:
 - [About]("/about")
 - [Ventures]("/ventures")
 - [People]("/people")
-- [Newsroom]("/newsroom")
 - [Contact]("/contact")
 
