@@ -312,6 +312,14 @@ header {
   background: #6366f1;
 }
 
+.main-button:hover {
+  color: #fff; /* Keep the text white */
+  background: #4f46e5; /* A slightly darker shade for the hover state */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow effect */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
 a:hover{
   color: #5e5b59;
 }
