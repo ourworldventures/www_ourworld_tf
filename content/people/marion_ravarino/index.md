@@ -1,7 +1,7 @@
 ---
 title: Marion Ravarino
 weight: 3
-description: Growing up in a multicultural environment has made me an enthusiastic and very open-minded person. 
+description: Communication Team
 taxonomies:
     people: [marion_ravarino]
     memberships: []

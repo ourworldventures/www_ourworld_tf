@@ -1,7 +1,7 @@
 ---
 title: Gregory Flipo
 weight: 2
-description: Community Development. I move people to develop their potential and serve the common good.
+description: Community Developer
 taxonomies:
     people: [gregory_flipo]
     memberships: []

@@ -1,7 +1,7 @@
 ---
 title: Sasha Astiadi
-weight: 1
-description: Product Manager with a passion in blockchain, sustainability, and decentralization
+weight: 3
+description: Websites
 taxonomies:
     people: [sasha_astiadi]
     memberships: []

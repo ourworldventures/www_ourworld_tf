@@ -1,7 +1,7 @@
 ---
 title: Sacha Obeegadoo
-weight: 1
-description: Organisational and Ecosystem Strategy. Problem-solver. Good-doer.
+weight: 2
+description: Business Development & Community
 taxonomies:
     people: [sacha_obeegadoo]
     memberships: []

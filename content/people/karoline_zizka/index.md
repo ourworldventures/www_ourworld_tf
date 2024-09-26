@@ -1,7 +1,7 @@
 ---
 title: Karoline Zizka
-weight: 2
-description: Coordination. Always having the most productive and playful outcomes for the Highest Good of all in mind and heart.
+weight: 3
+description: Administrative Assistant
 taxonomies:
     people: [karoline_zizka]
     memberships: []

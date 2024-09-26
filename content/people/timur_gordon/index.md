@@ -1,7 +1,7 @@
 ---
 title: Timur Gordon
-weight: 2
-description: Nature-inspired software developer, turning tech and teamwork into tools for change.
+weight: 3
+description: Development Team
 taxonomies:
     people: [timur_gordon]
     memberships: []

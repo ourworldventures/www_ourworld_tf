@@ -1,7 +1,7 @@
 ---
 title: Florian Fournier
-weight: 1
-description: Ecosystem development. The vision is always the same - to enact individual actions that address global challenges.
+weight: 2
+description: Co-Founder & CMO
 taxonomies:
     people: [florian_fournier]
     memberships: []

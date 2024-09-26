@@ -1,7 +1,7 @@
 ---
 title: Vianney Spriet
-weight: 1
-description: Ecosystem development, wealth manager, former professional skipper.
+weight: 2
+description: Ecosystem Developer
 taxonomies:
     people: [vianney_spriet]
     memberships: []
