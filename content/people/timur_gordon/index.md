@@ -4,7 +4,7 @@ weight: 2
 description: Nature-inspired software developer, turning tech and teamwork into tools for change.
 taxonomies:
     people: [timur_gordon]
-    memberships: 
+    memberships: []
     categories: [foundation]
 extra:
     imgPath: timur_gordon.jpg

@@ -4,7 +4,7 @@ weight: 3
 description: Growing up in a multicultural environment has made me an enthusiastic and very open-minded person. 
 taxonomies:
     people: [marion_ravarino]
-    memberships: 
+    memberships: []
     categories: [foundation]
 extra:
     imgPath: marion_ravarino.jpg
