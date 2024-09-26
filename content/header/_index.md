@@ -7,7 +7,7 @@ extra:
   logoPath: "/images/OW_Logo.png"
   imgPath: ""
 ---
-- [Home]("/")
+
 - [About]("/about")
 - [Ventures]("/ventures")
 - [People]("/people")
