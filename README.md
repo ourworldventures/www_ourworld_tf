@@ -8,7 +8,7 @@ Last Updated: March 2023
 - staging(development branch) https://www2.ourworld.tf/
 
 - For any suggestions or improvement ideas please 
-Create an issue on: [https://github.com/threefoldfoundation/www_ourworld_tf/issues](https://git.ourworld.tf/tfgrid/circle_web_presence/issues)
+Create an issue on: https://git.ourworld.tf/tfgrid/circle_web_presence/issues
 
 ## Administrators
 [ThreeFold's Web Admins](https://github.com/orgs/threefoldfoundation/teams/team_web_admin)
