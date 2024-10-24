@@ -8,7 +8,7 @@ Last Updated: Aug 2024
 - staging(development branch) https://www2.ourworld.tf/
 
 - For any suggestions or improvement ideas please 
-Create an issue on: https://github.com/threefoldfoundation/www_ourworld_tf/issues
+Create an issue on: https://git.ourworld.tf/tfgrid/circle_web_presence/issues
 
 ## Project Overview
 
@@ -43,6 +43,10 @@ cd www_tf9_new
 
 #### Access the Terminal
 Within your code editor, open the terminal or command line interface. Make sure you are in the root directory of your website project in the terminal.
+
+1. Create an Issue
+Feel free to [create a new issue](https://git.ourworld.tf/tfgrid/circle_web_presence/issues) to report an error on the website, or if you have any suggestions on website improvements. 
+
 
 #### Run the Build Script: 
 Type **./build.sh** in the terminal and press Enter. This script is responsible for building or compiling your website code and assets.
