@@ -7,60 +7,23 @@ draft: false
 weight: 1
 ---
 
-<!-- section 2  -->
+<!--
+  This page is made by combining different 'block' (partial html pages) together. 
+  To edit the page content, please go to specific 'block' that you would like to edit.
+  To see the list of the blocks in this page, add or remove some of the partial pages, go to: layouts/index.html.
 
-<div class="hidden md:grid">
+HOMEPAGE (layouts/index.html) contains:
 
-{% row(style="center" padding="none") %}
+  1. Hero section: "partials/hero.html
+  2. About section: "partials/about.html"
+  3. Foundation section: "partials/features.html"
+  4. Milestones section: "partials/stats.html
+  5. Portfolio section: "partials/ventures.html"
+  5. Quote: "partials/quotes.html"
 
-
-<br>
-
-![](img/brand1.png)
-
-<br>
-
-|||
-
-
-<br>
-
-![](img/brand2.png)
-
-<br>
-
-|||
-
-<br>
-
-![](img/brand3.png)
-
-<br>
-
-|||
-
-<br>
-
-![](img/brand4.png)
-
-<br>
-
-|||
-
-<br>
-
-![](img/brand5.png)
-
-<br>
-
-|||
-
-<br>
-
-![](img/brand6.png)
-
-<br>
-
-{% end %}
-
-</div>
+---
+  Extras:
+  1. header: "partials/header_custom.html"
+  2. footer: "partials/footer.html"
+  -->
+  

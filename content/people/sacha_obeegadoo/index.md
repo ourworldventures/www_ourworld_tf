@@ -1,7 +1,7 @@
 ---
 title: Sacha Obeegadoo
-weight: 1
-description: Organisational and Ecosystem Strategy. Problem-solver. Good-doer.
+weight: 2
+description: Program Manager
 taxonomies:
     people: [sacha_obeegadoo]
     memberships: []
@@ -19,4 +19,4 @@ extra:
     }
 ---
 
-Sacha is a positive and outgoing individual. Seeking challenging and dynamic opportunities, he invests himself in sustainable activities with a view to producing real results and doing good for the world. He believes that change is the only constant.
+Business Developer with experience growing companies  across various sectors.
