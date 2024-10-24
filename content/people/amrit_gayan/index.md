@@ -1,7 +1,7 @@
 ---
 title: Amrit Gayan
 weight: 4
-description: Advisor, Ops & Finance
+description: Advisor, Finance & Operations
 taxonomies:
     people: [amrit_gayan]
     memberships: []

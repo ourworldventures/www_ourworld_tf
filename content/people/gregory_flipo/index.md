@@ -1,7 +1,7 @@
 ---
 title: Gregory Flipo
 weight: 2
-description: Co-Founder & Sikana CEO
+description: Co-Founder, CEO of Sikana
 taxonomies:
     people: [gregory_flipo]
     memberships: []

@@ -1,7 +1,7 @@
 ---
 title: Chris Camponovo
 weight: 2
-description: Director & OurWorld FreeZone Co-Founder
+description: Director, Co-Founder of OW FreeZone
 taxonomies:
     people: [chris_camponovo]
     memberships: []

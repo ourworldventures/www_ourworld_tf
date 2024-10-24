@@ -1,7 +1,7 @@
 ---
 title: Marion Ravarino
 weight: 3
-description: Project Management & Communication
+description: Project Management
 taxonomies:
     people: [marion_ravarino]
     memberships: []
