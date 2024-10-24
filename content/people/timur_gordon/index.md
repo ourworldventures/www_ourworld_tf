@@ -1,7 +1,7 @@
 ---
 title: Timur Gordon
 weight: 4
-description: Developer
+description: Software Developer
 taxonomies:
     people: [timur_gordon]
     memberships: []

@@ -1,7 +1,7 @@
 ---
 title: Adnan Fateryji
 weight: 2
-description: Co-Founder & ThreeFold DMCC CEO
+description: Co-Founder, CEO of TF DMCC
 taxonomies:
     people: [adnan fatayerji]
     memberships: []
