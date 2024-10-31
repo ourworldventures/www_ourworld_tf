@@ -18,7 +18,7 @@ HOMEPAGE (layouts/index.html) contains:
   2. About section: "partials/about.html"
   3. Foundation section: "partials/features.html"
   4. Milestones section: "partials/stats.html
-  5. Portfolio section: "partials/ventures.html"
+  5. Ventures section: "partials/ventures.html"
   5. Quote: "partials/quotes.html"
 
 ---
