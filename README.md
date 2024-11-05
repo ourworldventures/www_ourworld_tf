@@ -1,4 +1,15 @@
-# Welcome to OurWorld Website Repository
+
+# ARCHIVED
+
+this Repository has been archived, we moved to [gitea repo](https://git.ourworld.tf/ourworld_web/www_ourworld_tf)
+please add new issues on gitea instead.
+
+
+
+
+-------
+
+## Welcome to OurWorld Website Repository
 
 - Website Name: OurWorld
 - Brief Description: This is the official website of OurWorld.
